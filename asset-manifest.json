@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Landing/static/css/main.2f8af4b0.chunk.css",
+    "main.js": "/Portfolio-Landing/static/js/main.40b0f8a2.chunk.js",
+    "main.js.map": "/Portfolio-Landing/static/js/main.40b0f8a2.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Landing/static/js/runtime-main.58bb1e7b.js",
+    "runtime-main.js.map": "/Portfolio-Landing/static/js/runtime-main.58bb1e7b.js.map",
+    "static/css/2.ec02d681.chunk.css": "/Portfolio-Landing/static/css/2.ec02d681.chunk.css",
+    "static/js/2.def53486.chunk.js": "/Portfolio-Landing/static/js/2.def53486.chunk.js",
+    "static/js/2.def53486.chunk.js.map": "/Portfolio-Landing/static/js/2.def53486.chunk.js.map",
+    "index.html": "/Portfolio-Landing/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/Portfolio-Landing/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.2f8af4b0.chunk.css.map": "/Portfolio-Landing/static/css/main.2f8af4b0.chunk.css.map",
+    "static/js/2.def53486.chunk.js.LICENSE.txt": "/Portfolio-Landing/static/js/2.def53486.chunk.js.LICENSE.txt",
+    "static/media/animeshoppe.9c4c5f50.png": "/Portfolio-Landing/static/media/animeshoppe.9c4c5f50.png",
+    "static/media/bootstrap.d5210cde.png": "/Portfolio-Landing/static/media/bootstrap.d5210cde.png",
+    "static/media/crown.4557db3b.png": "/Portfolio-Landing/static/media/crown.4557db3b.png",
+    "static/media/css.9f33c557.png": "/Portfolio-Landing/static/media/css.9f33c557.png",
+    "static/media/email.b88e7648.png": "/Portfolio-Landing/static/media/email.b88e7648.png",
+    "static/media/git.fd1a85d6.png": "/Portfolio-Landing/static/media/git.fd1a85d6.png",
+    "static/media/github.0144fe56.png": "/Portfolio-Landing/static/media/github.0144fe56.png",
+    "static/media/html.1d7b133e.png": "/Portfolio-Landing/static/media/html.1d7b133e.png",
+    "static/media/js.a2a16f08.png": "/Portfolio-Landing/static/media/js.a2a16f08.png",
+    "static/media/linkedin.712c4ce3.png": "/Portfolio-Landing/static/media/linkedin.712c4ce3.png",
+    "static/media/npm.5904c46f.png": "/Portfolio-Landing/static/media/npm.5904c46f.png",
+    "static/media/programming.48edc077.png": "/Portfolio-Landing/static/media/programming.48edc077.png",
+    "static/media/react.283f9f86.png": "/Portfolio-Landing/static/media/react.283f9f86.png",
+    "static/media/streamvic.0a8d0d1a.png": "/Portfolio-Landing/static/media/streamvic.0a8d0d1a.png",
+    "static/media/visiticeland.2bd92b3d.png": "/Portfolio-Landing/static/media/visiticeland.2bd92b3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58bb1e7b.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.def53486.chunk.js",
+    "static/css/main.2f8af4b0.chunk.css",
+    "static/js/main.40b0f8a2.chunk.js"
+  ]
+}
