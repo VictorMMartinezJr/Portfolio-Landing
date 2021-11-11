@@ -1,0 +1,195 @@
+.aboutme {
+    height: 110vh;
+    background: #1b1b1b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    color: #fff;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.aboutme-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.aboutme-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aboutme-title {
+    font-size: 5rem;
+    color: #742fc2;
+    z-index: 2;
+    font-weight: 900;
+    margin-top: 1rem;
+}
+
+.aboutme-title-back {
+    position: absolute;
+    font-size: 10rem;
+    color: #242424;
+}
+
+.aboutme-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+    height: 70%;
+    text-align: center;
+}
+
+.info-span {
+    margin-top: 2rem;
+    line-height: 2;
+    font-size: 2rem;
+}
+
+.aboutme-paragraph {
+    padding: 0 1rem;
+    line-height: 2;
+    margin-top: 1rem;
+}
+
+.name-span {
+    color: #742fc2;
+    font-weight: 700;
+}
+
+/***** Media Queires *****/
+@media screen and (max-width: 1290px) {
+    .aboutme-content {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        justify-items: center;
+        margin-top: 1rem;
+    }
+    .aboutme-info {
+        margin-top: 5rem;
+    }
+
+    .aboutme-paragraph {
+        line-height: 1.5;
+    }
+
+    .info-span {
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+    .aboutme {
+        height: 70vh;
+    }
+    .aboutme-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+    }
+
+    .aboutme-name {
+        font-size: 2.5rem;
+    }
+
+    .aboutme-info {
+        width: 80%;
+        line-height: 2;
+        font-size: 2rem;
+    }
+
+    .info-span {
+        margin-top: 2rem;
+        line-height: 2;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .aboutme {
+        height: 100vh;
+    }
+
+    .aboutme-content {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .aboutme-title {
+        font-size: 4rem;
+    }
+
+    .aboutme-title-back {
+        font-size: 8rem;
+    } 
+
+    .aboutme-name {
+        font-size: 2rem;
+    }
+
+    .aboutme-info, .info-span {
+        width: 80%;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutme-title-back {
+        font-size: 6rem;
+    } 
+
+    .aboutme-info, .info-span {
+        width: 100%;
+        padding: 0 .5rem;
+    }
+
+    .aboutme-title {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .aboutme {
+        height: auto;
+    }
+
+    .aboutme-content {
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .aboutme-name {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .aboutme-title-back {
+        font-size: 5.5rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .aboutme-title-back {
+        font-size: 5rem;
+    } 
+
+    .aboutme-info {
+        margin-bottom: 1rem;
+    }
+}

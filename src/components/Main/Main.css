@@ -1,0 +1,430 @@
+.main {
+  height: 100vh;
+  background: #1b1b1b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  color: #fff;
+  position: relative;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 2;
+  margin-left: 5rem;
+  height: 90vh;
+}
+
+.main-content-h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.main-content-btn {
+  font-size: 2rem;
+  background: #742fc2;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  box-shadow: 0 0 20px #742fc2;
+  cursor: pointer;
+}
+
+.dark-h1 {
+  color: #494949;
+}
+
+.h1-span {
+  position: relative;
+}
+
+.h1-span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 5px solid #fff;
+  background: #1b1b1b;
+  margin-left: 110px;
+  animation: typing 2.5s steps(13)
+    infinite;
+  animation-delay: 0.7s;
+}
+
+.main-period {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #742fc2;
+  margin-bottom: 2rem;
+}
+
+.show-mobile {
+  display: none;
+}
+
+.main-content-images {
+  height: 400px;
+  width: 600px;
+  z-index: 2;
+  position: relative;
+  margin-left: 10rem;
+  align-self: center;
+}
+
+.main-content-images img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.html-logo,
+.css-logo,
+.js-logo,
+.react-logo {
+  position: absolute;
+  -webkit-animation: move-logo 4s linear
+    infinite; /* Chrome, Safari 5 */
+  -moz-animation: move-logo 4s linear
+    infinite; /* Firefox 5-15 */
+  -o-animation: move-logo 4s linear
+    infinite; /* Opera 12+ */
+  animation: move-logo 4s linear
+    infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+.html-logo {
+  top: 0;
+  left: 20px;
+}
+
+.css-logo {
+  top: 50px;
+  right: 50px;
+}
+
+.js-logo {
+  bottom: 50px;
+  left: 20px;
+}
+
+.react-logo {
+  bottom: 0;
+  right: 20px;
+}
+
+@-webkit-keyframes move-logo {
+  from {
+    -webkit-transform: rotate(0deg)
+      translateX(5px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg)
+      translateX(5px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes move-logo {
+  from {
+    -moz-transform: rotate(0deg)
+      translateX(5px) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg)
+      translateX(5px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes move-logo {
+  from {
+    -o-transform: rotate(0deg)
+      translateX(5px) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg)
+      translateX(5px) rotate(-360deg);
+  }
+}
+
+@keyframes move-logo {
+  from {
+    transform: rotate(0deg)
+      translateX(5px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+      translateX(5px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes typing {
+  100% {
+    left: 100%;
+  }
+}
+
+@-moz-keyframes typing {
+  100% {
+    left: 100%;
+  }
+}
+
+@-o-keyframes typing {
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+  }
+}
+
+.stars-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.main-background-text {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  left: 0px;
+  top: 0;
+  font-size: 20rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #383838;
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.show-ipad {
+  display: none;
+}
+
+/***** Media Queires *****/
+@media screen and (max-width: 1290px) {
+  .main-content-h1 {
+    font-size: 4rem;
+  }
+
+  .main-content-images {
+    width: 350px;
+  }
+
+  .main-background-text {
+    font-size: 13.5rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .main {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .main-content {
+    margin-left: 0;
+    height: 35vh;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-content-h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .main-content-images {
+    margin: 2rem 0;
+    width: 600px;
+    height: 400px;
+  }
+
+  .main-background-text {
+    font-size: 11rem;
+    height: 100%;
+    align-items: flex-end;
+  }
+
+  .background-text {
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .show-ipad {
+    display: inline-block;
+  }
+
+  .show-ipad-background-text {
+    position: absolute;
+    top: 200px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show-mobile {
+    display: inline-block;
+    height: 100px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .main {
+    height: 90vh;
+    justify-content: center;
+  }
+
+  .main-content {
+    height: 45vh;
+  }
+
+  .main-content-h1 {
+    font-size: 4.5rem;
+  }
+
+  .main-background-text {
+    font-size: 8rem;
+  }
+
+  .background-text {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .show-ipad-background-text {
+    top: 50px;
+  }
+
+  .show-mobile {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main-content-h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .main-background-text {
+    font-size: 5rem;
+  }
+
+  .main-content-btn {
+    font-size: 1.5rem;
+  }
+
+  .main-period {
+    font-size: 1rem;
+  }
+
+  .show-mobile {
+    height: 100px;
+  }
+
+  .main-content-images img {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-content {
+    height: 43vh;
+  }
+
+  .main-content-h1 {
+    font-size: 2.4rem;
+    width: 100%;
+  }
+
+  .main-background-text {
+    font-size: 4rem;
+  }
+
+  .main-content-btn {
+    font-size: 1.5rem;
+  }
+
+  .main-period {
+    font-size: 1rem;
+  }
+
+  .show-mobile {
+    height: 80px;
+  }
+
+  .main-content-images img {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-content {
+    height: 35vh;
+  }
+
+  .main-content-h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .main-background-text {
+    display: none;
+  }
+
+  .background-text {
+    display: none;
+  }
+
+  .show-ipad-background-text {
+    display: none;
+  }
+
+  .show-mobile {
+    height: 50px;
+  }
+
+  .main-content-images img {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-content-h1 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  .background-text {
+    bottom: 100px;
+    font-size: 3rem;
+  }
+
+  .show-ipad-background-text {
+    position: absolute;
+    top: 100px;
+  }
+}
