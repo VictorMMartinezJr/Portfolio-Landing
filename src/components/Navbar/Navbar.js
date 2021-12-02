@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className={navBackground ? 'nav background' : 'nav'}>
-                <img className='nav-logo' src='./images/programming.png' alt="programming" />
+                <img className='nav-logo' src='Portfolio-Landing/images/programming.png' alt="programming" />
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
                     <li className="nav-link" onClick={() => setNavActive(false)}><a href='#home'>HOME</a></li>
                     <li className="nav-link" onClick={() => setNavActive(false)}><a href='#aboutme'>ABOUT ME</a></li>

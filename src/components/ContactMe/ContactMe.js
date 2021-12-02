@@ -12,16 +12,16 @@ const ContactMe = () => {
                 </div>
                 <div className="contact-info">
                     <div className="contact-title">
-                        <img className='html-logo email-logo' src='./images/email.png' alt="email-envelope" />
+                        <img className='html-logo email-logo' src='Portfolio-Landing/images/email.png' alt="email-envelope" />
                         <p className='contact-info-title'>Email Me At</p>
                     </div>
                     <p className='email'>victormtzcodes@gmail.com</p>
                     <div className="skills-images">
                         <a href='https://github.com/VictorMtzCode' target="_blank" rel='noreferrer'>
-                            <img className='html-logo skills-logo social-logo' src='./images/github.png' alt="github" />
+                            <img className='html-logo skills-logo social-logo' src='Portfolio-Landing/images/github.png' alt="github" />
                         </a>
                         <a href='https://www.linkedin.com/in/victor-martinez-aa5483225/' target="_blank" rel='noreferrer'>
-                            <img className='html-logo skills-logo social-logo' src='./images/linkedin.png' alt="linkedin" />
+                            <img className='html-logo skills-logo social-logo' src='Portfolio-Landing/images/linkedin.png' alt="linkedin" />
                         </a>
                     </div>
                 </div>

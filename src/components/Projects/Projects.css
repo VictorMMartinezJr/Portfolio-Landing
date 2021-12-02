@@ -1,11 +1,12 @@
 .projects {
-    height: 180vh;
+    height: 210vh;
     background: #1b1b1b;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .projects-content {
@@ -13,25 +14,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 170vh;
+    height: auto;
     width: 100%;
 }
 
 .projects-info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    width: 100%;
 }
 
 .project-container {
-    border: 2px solid #242424;
-    height: 600px;
-    width: 900px;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
-    margin: 1rem;
+    border: 5px solid #242424;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
     z-index: 2;
 }
 
@@ -45,37 +48,86 @@
     border-radius: 10px;
 }
 
+.project-container-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+}
+
 .project-header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 1rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0 1rem;
+    height: 350px;
 }
 
 .project-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #742fc2;
-    font-weight: 700;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-.project-info {
-    font-size: 1.5rem;
-    padding: 0 1rem;
-}
-
-.project-features {
+.title-technologies {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    align-items: flex-start;
 }
 
-.features-header {
-    color: #742fc2;
+.title-technology:nth-child(1) {
+    margin-left: 0;
+}
+
+.title-technology {
+    padding: .2rem .5rem;
+    border: 2px solid #742fc2;
+    border-radius: 5px;
     font-weight: 700;
+    margin: 0 .5rem;
+}
+
+.project-description {
+    font-size: 1.5rem;
+}
+
+.title-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-link:nth-child(1) {
+    margin-left: 0;
+}
+
+.title-link {
+    margin: .5rem;
+    position: relative;
+    font-weight: 700;
+    padding: .2rem .5rem;
+    letter-spacing: 1px;
+}
+
+.title-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: grey;
+}
+
+.title-link:hover::after {
+    background: #742fc2;
+}
+
+.title-links a{
+    text-decoration: none;
+    color: #fff;
 }
 
 /***** Media Queires *****/

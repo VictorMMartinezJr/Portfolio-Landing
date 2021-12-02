@@ -11,51 +11,87 @@ const Projects = () => {
                     <h1 className='aboutme-title-back'>Projects</h1>
                 </div>
                 <div className='projects-info'>
-                    <div className='project-container'>
-                        <div className='project-header'>
-                            <p className='project-title'>Anime Shoppe</p>
-                            <p className='project-info'>A clothing store using Context API + useReducer to create a global state used to add a working cart feature.</p>
+                    {/*anime shoppe project */}
+                    <div data-aos='fade-left' className='project-container'>
+                        <div className='project-container-content'>
+                            <img src='Portfolio-Landing/images/animeshoppe.png' alt="anime-shoppe" />
+                            <div className='project-header'>
+                                <p className='project-title'>Anime Shoppe</p>
+                                <span className='title-technologies'>
+                                    <p className='title-technology'>React</p>
+                                    <p className='title-technology'>HTML5</p>
+                                    <p className='title-technology'>CSS</p>
+                                </span>
+                                <p className='project-description'>A dynamic web app built for an anime shop.</p>
+                                <span className='title-links'>
+                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
+                                    <a href='https://github.com/VictorMtzCode/Anime-Shoppe' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
+                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                </span>
+                            </div>
                         </div>
-                        <div className='project-features'>
-                            <p className='features-header'>Notable Features:</p>
-                            <p>Search, Add/Remove Item to Cart, Sort Items, Image Change on Hover</p>
-                        </div>
-                        <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><img src='./images/animeshoppe.png' alt="anime-shoppe" /></a>
                     </div>
-                    <div className='project-container'>
-                        <div className='project-header'>
-                            <p className='project-title'>Visit Iceland</p>
-                            <p className='project-info'>A travel website with animations created with framer motion.</p>
+                    {/* streamvic movie project */}
+                    <div data-aos='fade-right' className='project-container'>
+                        <div className='project-container-content'>
+                            <div className='project-header'>
+                                <p className='project-title'>StreamVic</p>
+                                <span className='title-technologies'>
+                                    <p className='title-technology'>React</p>
+                                    <p className='title-technology'>HTML5</p>
+                                    <p className='title-technology'>CSS</p>
+                                    <p className='title-technology'>Rest API</p>
+                                </span>
+                                <p className='project-description'>A dynamic web app built for an anime shop.</p>
+                                <span className='title-links'>
+                                    <a href='https://streamvic.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
+                                    <a href='https://github.com/VictorMtzCode/streamvic' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
+                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                </span>
+                            </div>
+                            <img src='Portfolio-Landing/images/streamvic.png' alt="anime-shoppe" />
                         </div>
-                        <div className='project-features'>
-                            <p className='features-header'>Notable Features:</p>
-                            <p>Route Change Animations, Sections Animations, Contact Form with Thank You Modal.</p>
-                        </div>
-                        <a href='https://traveltoiceland.netlify.app/' target="_blank" rel='noreferrer'><img src='./images/visiticeland.png' alt="visit-iceland" /></a>
                     </div>
-                </div>
-                <div className='projects-info'>
-                    <div className='project-container'>
-                        <div className='project-header'>
-                            <p className='project-title'>StreamVic</p>
-                            <p className='project-info'>A movie app fetching 3rd party data to display movie and TV show info.</p>
+                    {/* visit iceland project */}
+                    <div data-aos='fade-left' className='project-container'>
+                        <div className='project-container-content'>
+                            <img src='Portfolio-Landing/images/visit-iceland.png' alt="anime-shoppe" />
+                            <div className='project-header'>
+                                <p className='project-title'>Visit Iceland</p>
+                                <span className='title-technologies'>
+                                    <p className='title-technology'>React</p>
+                                    <p className='title-technology'>HTML5</p>
+                                    <p className='title-technology'>CSS</p>
+                                    <p className='title-technology'>FRAMER-MOTION</p>
+                                </span>
+                                <p className='project-description'>A dynamic web app for users to get information on the country of Iceland.</p>
+                                <span className='title-links'>
+                                    <a href='https://traveltoiceland.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
+                                    <a href='https://github.com/VictorMtzCode/visit-iceland' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
+                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                </span>
+                            </div>
                         </div>
-                        <div className='project-features'>
-                            <p className='features-header'>Notable Features:</p>
-                            <p>Search, Movie/Show Details Page</p>
-                        </div>
-                        <a href='https://streamvic.netlify.app/' target="_blank" rel='noreferrer'><img src='./images/streamvic.png' alt="streamvic" /></a>
                     </div>
-                    <div className='project-container'>
-                        <div className='project-header'>
-                            <p className='project-title'>The Crown Restaurant</p>
-                            <p className='project-info'>A UI Created for a Luxurious Restaurant</p>
+                    {/*the crown restaurant project */}
+                    <div data-aos='fade-right' className='project-container'>
+                        <div className='project-container-content'>
+                            <div className='project-header'>
+                                <p className='project-title'>The Crown</p>
+                                <span className='title-technologies'>
+                                    <p className='title-technology'>React</p>
+                                    <p className='title-technology'>HTML5</p>
+                                    <p className='title-technology'>CSS</p>
+                                </span>
+                                <p className='project-description'>A dynamic web application UI for a high end restaurant.</p>
+                                <span className='title-links'>
+                                    <a href='https://thecrown.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
+                                    <a href='https://github.com/VictorMtzCode/TheCrown' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
+                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                </span>
+                            </div>
+                            <img src='Portfolio-Landing/images/thecrown.png' alt="anime-shoppe" />
                         </div>
-                        <div className='project-features'>
-                            <p className='features-header'>Notable Features:</p>
-                            <p>Review Cards, PNG Images</p>
-                        </div>
-                        <a href='https://thecrown.netlify.app' target="_blank" rel='noreferrer'><img src='./images/crown.png' alt="crown" /></a>
                     </div>
                 </div>
             </div>
