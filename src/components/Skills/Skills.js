@@ -10,7 +10,7 @@ const Skills = () => {
                     <h1 className='aboutme-title'>Skills</h1>
                     <h1 className='aboutme-title-back'>Skills</h1>
                 </div>
-                <div className="skills-images">
+                <div data-aos='fade-in' data-aos-delay='400' className="skills-images">
                     <div className='skills-logo-container'>
                         <img className='html-logo skills-logo' src='Portfolio-Landing/images/html.png' alt="html-logo" />
                         <p className='skills-logo-name'>HTML</p>
@@ -28,7 +28,7 @@ const Skills = () => {
                         <p className='skills-logo-name'>React</p>
                     </div>
                 </div>
-                <div className='softskills-logos'>
+                <div data-aos='fade-in' data-aos-delay='500' className='softskills-logos'>
                     <div className='skills-logo-container'>
                         <img className='react-logo skills-logo' src='Portfolio-Landing/images/git.png' alt="git-logo" />
                         <p className='skills-logo-name'>Git</p>

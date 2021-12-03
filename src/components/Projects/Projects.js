@@ -1,5 +1,6 @@
 import './Projects.css';
 import Stars from '../Stars/Stars';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -26,7 +27,9 @@ const Projects = () => {
                                 <span className='title-links'>
                                     <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/Anime-Shoppe' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
-                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                    <Link to='/streamvic'>
+                                        <p className='title-link'>Learn More</p>
+                                    </Link>
                                 </span>
                             </div>
                         </div>

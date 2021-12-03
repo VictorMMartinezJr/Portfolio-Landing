@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [navBackground, setNavBackground] = useState(false);
@@ -17,11 +18,15 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className={navBackground ? 'nav background' : 'nav'}>
+            <div className='nav'>
                 <img className='nav-logo' src='Portfolio-Landing/images/programming.png' alt="programming" />
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
-                    <li className="nav-link" onClick={() => setNavActive(false)}><a href='#home'>HOME</a></li>
-                    <li className="nav-link" onClick={() => setNavActive(false)}><a href='#aboutme'>ABOUT ME</a></li>
+                    <li className="nav-link" onClick={() => setNavActive(false)}>
+                        <NavLink exact to='/' activeClassName={'nav-link is-active'}>HOME</NavLink>
+                    </li>
+                    <li className="nav-link" onClick={() => setNavActive(false)}>
+                        <NavLink to='/aboutme' activeClassName={'nav-link is-active'}>ABOUT ME</NavLink>
+                    </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}><a href='#skills'>SKILLS</a></li>
                     <li className="nav-link" onClick={() => setNavActive(false)}><a href='#projects'>PROJECTS</a></li>
                     <li className="nav-link" onClick={() => setNavActive(false)}><a href='#contact'>CONTACT</a></li>

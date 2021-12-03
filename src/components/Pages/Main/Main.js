@@ -1,5 +1,5 @@
 import './Main.css';
-import Stars from '../Stars/Stars';
+import Stars from '../../Stars/Stars';
 
 const Main = () => {
     return (
