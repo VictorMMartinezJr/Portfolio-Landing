@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className='nav'>
-                <img className='nav-logo' src='Portfolio-Landing/images/programming.png' alt="programming" />
+                <img className='nav-logo' src='./images/programming.png' alt="programming" />
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
                         <NavLink exact to='/' activeClassName={'nav-link is-active'}>HOME</NavLink>
@@ -27,8 +27,9 @@ const Navbar = () => {
                     <li className="nav-link" onClick={() => setNavActive(false)}>
                         <NavLink to='/aboutme' activeClassName={'nav-link is-active'}>ABOUT ME</NavLink>
                     </li>
-                    <li className="nav-link" onClick={() => setNavActive(false)}><a href='#skills'>SKILLS</a></li>
-                    <li className="nav-link" onClick={() => setNavActive(false)}><a href='#projects'>PROJECTS</a></li>
+                    <li className="nav-link" onClick={() => setNavActive(false)}>
+                        <NavLink to='/projects' activeClassName={'nav-link is-active'}>PROJECTS</NavLink>
+                    </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}><a href='#contact'>CONTACT</a></li>
                 </ul>
                 <div className='burger' onClick={() => setNavActive(!navActive)}>

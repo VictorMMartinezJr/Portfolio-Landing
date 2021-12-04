@@ -6,22 +6,19 @@ const ContactMe = () => {
         <section className='contact' id='contact'>
             <Stars />
             <div className="contact-content">
-                <div data-aos='fade-up' className='aboutme-titles'>
-                    <h1 className='aboutme-title'>Contact Me</h1>
-                    <h1 className='aboutme-title-back'>Contact</h1>
+                <div data-aos='fade-up' className='contact-titles'>
+                    <h1 className='contact-title'>Contact Me</h1>
+                    <h1 className='contact-title-back'>Contact</h1>
                 </div>
                 <div className="contact-info">
-                    <div className="contact-title">
-                        <img className='html-logo email-logo' src='Portfolio-Landing/images/email.png' alt="email-envelope" />
-                        <p className='contact-info-title'>Email Me At</p>
-                    </div>
+                    <p className='contact-info-p'>I'm ready for challenges and opportunities. Please send me an email if you want to chat with me.</p>
                     <p className='email'>victormtzcodes@gmail.com</p>
-                    <div className="skills-images">
+                    <div className="contact-images">
                         <a href='https://github.com/VictorMtzCode' target="_blank" rel='noreferrer'>
-                            <img className='html-logo skills-logo social-logo' src='Portfolio-Landing/images/github.png' alt="github" />
+                            <img className='html-logo skills-logo social-logo' src='./images/github.png' alt="github" />
                         </a>
                         <a href='https://www.linkedin.com/in/victor-martinez-aa5483225/' target="_blank" rel='noreferrer'>
-                            <img className='html-logo skills-logo social-logo' src='Portfolio-Landing/images/linkedin.png' alt="linkedin" />
+                            <img className='html-logo skills-logo social-logo' src='./images/linkedin.png' alt="linkedin" />
                         </a>
                     </div>
                 </div>

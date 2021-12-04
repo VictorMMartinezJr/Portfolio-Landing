@@ -1,0 +1,9 @@
+.react-carousel {
+    width: 800px;
+}
+
+.carousel-img {
+    width: 800px;
+    padding: 0 2rem;
+    object-fit: contain;
+}

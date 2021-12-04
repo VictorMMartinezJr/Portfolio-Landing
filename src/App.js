@@ -5,10 +5,10 @@ import Navbar from './components/Navbar/Navbar';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Projects from './components/Projects/Projects';
 import ContactMe from './components/ContactMe/ContactMe';
 import StreamVic from './components/SingleProjects/StreamVic';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Projects from './components/Pages/Projects/Projects';
 
 function App() {
   useEffect(() => {
@@ -23,15 +23,13 @@ function App() {
           <Route exact path='/'>
             <Main />
           </Route>
-          <Route exact path='/aboutme'>
+          <Route path='/aboutme'>
             <AboutMe />
-            {/* <Skills /> */}
           </Route>
-          <Route exact path='/aboutme'>
+          <Route path='/projects'>
             <Projects />
           </Route>
-          <ContactMe />
-          <Route exact path='/streamvic'>
+          <Route path='/streamvic'>
             <StreamVic />
           </Route>
         </Switch>

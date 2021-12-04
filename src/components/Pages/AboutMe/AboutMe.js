@@ -18,7 +18,10 @@ const AboutMe = () => {
                 </div>
             </div>
             <Skills />
-            <ContactMe />
+            <div className='contact-div'>
+                <ContactMe />
+                <i className="far fa-arrow-alt-circle-up arrow-up" onClick={() => window.scrollTo(0, 0)}></i>
+            </div>
         </section>
     )
 }

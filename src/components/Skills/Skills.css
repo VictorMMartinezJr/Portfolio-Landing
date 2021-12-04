@@ -91,11 +91,11 @@
 }
 
 @media screen and (max-width: 370px) {
-    .skills-images,
-    .softskills-logos {
-        width: 95%;
-    }
-    .skills img {
-        height: 55px;
-      }
+  .skills-images,
+  .softskills-logos {
+    width: 95%;
+  }
+  .skills img {
+    height: 55px;
+  }
 }

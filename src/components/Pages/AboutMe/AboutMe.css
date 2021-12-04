@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
+    margin: 1rem;
 }
 
 .aboutme-titles {
@@ -64,6 +65,27 @@
 .name-span {
     color: #742fc2;
     font-weight: 700;
+}
+
+.contact-div {
+    position: relative;
+}
+
+.arrow-down {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.arrow-up {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 /***** Media Queires *****/

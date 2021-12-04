@@ -1,0 +1,123 @@
+.single-project {
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+}
+
+.single-project-img {
+    object-fit: contain;
+    height: 400px;
+}
+
+.project-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .project-title {
+    font-size: 4rem;
+    color: #742fc2;
+    z-index: 2;
+    font-weight: 900;
+  }
+  
+  .project-title-back {
+    position: absolute;
+    font-size: 7rem;
+    color: #242424;
+    margin-bottom: 1rem;
+}
+
+.arrow-down {
+    position: absolute;
+    left: 80%;
+    margin-right: 1rem;
+}
+
+.single-project-overview {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    position: relative;
+}
+
+.single-project-overview::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    height: 3px;
+    width: 100%;
+    background: #242424;
+}
+
+.single-project-overview h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #742fc2;
+}
+
+.single-project-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding-right: .5rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.single-project-features {
+    display: flex;
+    flex-direction: column;    
+    width: 70%;
+}
+
+.features-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #742fc2;
+}
+
+.feature-no-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.feature-no-photo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #742fc2;
+}
+
+.feature-with-photo {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.feature-with-photo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.feature-with-photo-info h1 {
+    border-bottom: 3px solid #742fc2;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.feature-with-photo img {
+    height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+}
