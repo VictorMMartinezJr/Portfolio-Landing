@@ -1,18 +1,18 @@
 import { Carousel } from 'react-responsive-carousel';
 import './ProjectImagesCarousel.css'
 
-const ProjectImagesCarousel = () => {
+const ProjectImagesCarousel = ({ imageOne, imageTwo, imageThree }) => {
     return (
         <div className='react-carousel'>
-            <Carousel showThumbs={false} autoPlay infiniteLoop interval={3000} showStatus={false} showIndicators={false}>
+            <Carousel showThumbs={false} autoPlay infiniteLoop interval={2000} showStatus={false} showIndicators={false}>
                 <div className='carousel-img'>
-                    <img src="images/streamvic-movies.png" alt='streamvic' />
+                    <img src={imageOne} alt='streamvic' />
                 </div>
                 <div className='carousel-img'>
-                    <img src="images/streamvic-project.png" alt='streamvic' />
+                    <img src={imageTwo} alt='streamvic' />
                 </div>
                 <div className='carousel-img'>
-                    <img src="images/streamvic-details-slider.png" alt='streamvic' />
+                    <img src={imageThree} alt='streamvic' />
                 </div>
             </Carousel>
         </div>

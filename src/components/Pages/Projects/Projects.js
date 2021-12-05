@@ -17,7 +17,7 @@ const Projects = () => {
                     {/*anime shoppe project */}
                     <div data-aos='fade-left' className='project-container'>
                         <div className='project-container-content'>
-                            <img src='./images/animeshoppe.png' alt="anime-shoppe" />
+                            <img src='./assets/assets-animeshoppe/animeshoppe.png' alt="anime-shoppe" />
                             <div className='project-header'>
                                 <p className='project-head'>Anime Shoppe</p>
                                 <span className='title-technologies'>
@@ -29,7 +29,7 @@ const Projects = () => {
                                 <span className='title-links'>
                                     <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/Anime-Shoppe' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
-                                    <NavLink to='/streamvic'>
+                                    <NavLink to='/animeshoppe' onClick={() => window.scrollTo(0, 0)}>
                                         <p className='title-link'>Learn More</p>
                                     </NavLink>
                                 </span>
@@ -51,16 +51,18 @@ const Projects = () => {
                                 <span className='title-links'>
                                     <a href='https://streamvic.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/streamvic' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
-                                    <NavLink to='/streamvic' onClick={() => window.scrollTo(0, 0)}><p className='title-link'>Learn More</p></NavLink>
+                                    <NavLink to='/streamvic' onClick={() => window.scrollTo(0, 0)}>
+                                        <p className='title-link'>Learn More</p>
+                                    </NavLink>
                                 </span>
                             </div>
-                            <img src='./images/streamvic.png' alt="anime-shoppe" />
+                            <img src='./assets/assets-streamvic/streamvic-carousel.png' alt="anime-shoppe" />
                         </div>
                     </div>
                     {/* visit iceland project */}
                     <div data-aos='fade-left' className='project-container'>
                         <div className='project-container-content'>
-                            <img src='./images/visit-iceland.png' alt="anime-shoppe" />
+                            <img src='./assets/assets-visiticeland/visit-iceland.png' alt="anime-shoppe" />
                             <div className='project-header'>
                                 <p className='project-head'>Visit Iceland</p>
                                 <span className='title-technologies'>
@@ -73,7 +75,9 @@ const Projects = () => {
                                 <span className='title-links'>
                                     <a href='https://traveltoiceland.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/visit-iceland' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
-                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                    <NavLink to='/visiticeland' onClick={() => window.scrollTo(0, 0)}>
+                                        <p className='title-link'>Learn More</p>
+                                    </NavLink>
                                 </span>
                             </div>
                         </div>
@@ -92,10 +96,12 @@ const Projects = () => {
                                 <span className='title-links'>
                                     <a href='https://thecrown.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/TheCrown' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
-                                    <a href='https://anime-shoppe.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Learn More</p></a>
+                                    <NavLink to='/thecrown' onClick={() => window.scrollTo(0, 0)}>
+                                        <p className='title-link'>Learn More</p>
+                                    </NavLink>
                                 </span>
                             </div>
-                            <img src='./images/thecrown.png' alt="anime-shoppe" />
+                            <img src='./assets/assets-thecrown/thecrown.png' alt="anime-shoppe" />
                         </div>
                     </div>
                 </div>

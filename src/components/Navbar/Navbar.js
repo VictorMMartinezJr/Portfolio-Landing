@@ -3,23 +3,12 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-    const [navBackground, setNavBackground] = useState(false);
     const [navActive, setNavActive] = useState(false);
-
-    const changeBackground = () => {
-        if (window.scrollY >= 100) {
-            setNavBackground(true);
-        } else {
-            setNavBackground(false);
-        }
-    }
-
-    window.addEventListener('scroll', changeBackground)
 
     return (
         <nav>
             <div className='nav'>
-                <img className='nav-logo' src='./images/programming.png' alt="programming" />
+                <img className='nav-logo' src='./assets/images/programming.png' alt="programming" />
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
                         <NavLink exact to='/' activeClassName={'nav-link is-active'}>HOME</NavLink>

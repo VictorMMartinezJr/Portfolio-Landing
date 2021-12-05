@@ -5,10 +5,12 @@ import Navbar from './components/Navbar/Navbar';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import ContactMe from './components/ContactMe/ContactMe';
 import StreamVic from './components/SingleProjects/StreamVic';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/Pages/Projects/Projects';
+import AnimeShoppe from './components/SingleProjects/AnimeShoppe';
+import VisitIceland from './components/SingleProjects/VisitIceland';
+import TheCrown from './components/SingleProjects/TheCrown';
 
 function App() {
   useEffect(() => {
@@ -31,6 +33,15 @@ function App() {
           </Route>
           <Route path='/streamvic'>
             <StreamVic />
+          </Route>
+          <Route path='/animeshoppe'>
+            <AnimeShoppe />
+          </Route>
+          <Route path='/visiticeland'>
+            <VisitIceland />
+          </Route>
+          <Route path='/thecrown'>
+            <TheCrown />
           </Route>
         </Switch>
       </Router>

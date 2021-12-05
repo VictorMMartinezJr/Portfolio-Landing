@@ -61,6 +61,14 @@ const StreamVic = () => {
                     </div>
                     <img src={streamVicData.Details.image} alt="streamvic-details" />
                 </div>
+                <div className='feature-no-photo'>
+                    <h1>Fully Responsive</h1>
+                    <p className='single-project-p'>StreamVic is fully responsive to ensure the layout of the movie/show cards and the information on different pages are in the best position across all device widths. The website is responsive for mobile, tablet and desktop devices.</p>
+                </div>
+                <div className='feature-no-photo'>
+                    <h1>SEO</h1>
+                    <p className='single-project-p'>React Helmet is implemented to dynamically manage the document's head section. Each page's title, description, and meta tags are all dynamically changed to best represent the current page. This will help the app be read by search engines and social media crawlers.</p>
+                </div>S
             </div>
 
             <ProjectImagesCarousel imageOne={streamVicData.CarouselImages.imageOne} imageTwo={streamVicData.CarouselImages.imageTwo} imageThree={streamVicData.CarouselImages.imageThree} />
