@@ -13,8 +13,8 @@ const StreamVic = () => {
         <section className='single-project'>
             <img className='single-project-img' src={streamVicData.headImage} alt="" />
             <div data-aos='fade-up' className='project-titles'>
-                <h1 className='project-title'>StreamVic</h1>
-                <h1 className='project-title-back'>StreamVic</h1>
+                <h1 className='single-project-title'>StreamVic</h1>
+                <h1 className='single-project-title-back'>StreamVic</h1>
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>
@@ -68,7 +68,7 @@ const StreamVic = () => {
                 <div className='feature-no-photo'>
                     <h1>SEO</h1>
                     <p className='single-project-p'>React Helmet is implemented to dynamically manage the document's head section. Each page's title, description, and meta tags are all dynamically changed to best represent the current page. This will help the app be read by search engines and social media crawlers.</p>
-                </div>S
+                </div>
             </div>
 
             <ProjectImagesCarousel imageOne={streamVicData.CarouselImages.imageOne} imageTwo={streamVicData.CarouselImages.imageTwo} imageThree={streamVicData.CarouselImages.imageThree} />

@@ -13,8 +13,8 @@ const TheCrown = () => {
         <section className='single-project'>
             <img className='single-project-img' src={theCrownData.headImage} alt="" />
             <div data-aos='fade-up' className='project-titles'>
-                <h1 className='project-title'>The Crown</h1>
-                <h1 className='project-title-back'>The Crown</h1>
+                <h1 className='single-project-title'>The Crown</h1>
+                <h1 className='single-project-title-back'>The Crown</h1>
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>

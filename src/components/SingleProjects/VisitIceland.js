@@ -14,8 +14,8 @@ const VisitIceland = () => {
         <section className='single-project'>
             <img className='single-project-img' src={visitIcelandData.headImage} alt="" />
             <div data-aos='fade-up' className='project-titles'>
-                <h1 className='project-title'>Visit Iceland</h1>
-                <h1 className='project-title-back'>Visit Iceland</h1>
+                <h1 className='single-project-title'>Visit Iceland</h1>
+                <h1 className='single-project-title-back'>Visit Iceland</h1>
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>
@@ -41,12 +41,11 @@ const VisitIceland = () => {
                     </div>
                     <img src={visitIcelandData.SightsCarousel.image} alt="visiticeland-sightscarousel" />
                 </div>
-                <div className='feature-with-photo'>
+                <div className='feature-no-photo'>
                     <div className='feature-with-photo-info'>
                         <h1>{visitIcelandData.ExploreCarousels.title}</h1>
                         <p className='single-project-p'>{visitIcelandData.ExploreCarousels.textOne}</p>
                     </div>
-                    <img src={visitIcelandData.ExploreCarousels.image} alt="visiticeland-explorecarousel" />
                 </div>
                 <div className='feature-with-photo'>
                     <div className='feature-with-photo-info'>

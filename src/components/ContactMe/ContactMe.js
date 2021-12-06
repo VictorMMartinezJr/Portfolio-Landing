@@ -7,7 +7,7 @@ const ContactMe = () => {
             <Stars />
             <div className="contact-content">
                 <div data-aos='fade-up' className='contact-titles'>
-                    <h1 className='contact-title'>Contact Me</h1>
+                    <h1 className='contact-title'>Contact</h1>
                     <h1 className='contact-title-back'>Contact</h1>
                 </div>
                 <div className="contact-info">

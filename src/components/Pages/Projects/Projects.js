@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className='projects-info'>
                     {/*anime shoppe project */}
                     <div data-aos='fade-left' className='project-container'>
-                        <div className='project-container-content'>
+                        <div className='project-container-content left-image'>
                             <img src='./assets/assets-animeshoppe/animeshoppe.png' alt="anime-shoppe" />
                             <div className='project-header'>
                                 <p className='project-head'>Anime Shoppe</p>
@@ -56,13 +56,13 @@ const Projects = () => {
                                     </NavLink>
                                 </span>
                             </div>
-                            <img src='./assets/assets-streamvic/streamvic-carousel.png' alt="anime-shoppe" />
+                            <img src='./assets/assets-streamvic/streamvic-carousel.png' alt="streamvic" />
                         </div>
                     </div>
                     {/* visit iceland project */}
                     <div data-aos='fade-left' className='project-container'>
-                        <div className='project-container-content'>
-                            <img src='./assets/assets-visiticeland/visit-iceland.png' alt="anime-shoppe" />
+                        <div className='project-container-content left-image'>
+                            <img src='./assets/assets-visiticeland/visit-iceland.png' alt="visit-iceland" />
                             <div className='project-header'>
                                 <p className='project-head'>Visit Iceland</p>
                                 <span className='title-technologies'>
@@ -101,7 +101,7 @@ const Projects = () => {
                                     </NavLink>
                                 </span>
                             </div>
-                            <img src='./assets/assets-thecrown/thecrown.png' alt="anime-shoppe" />
+                            <img src='./assets/assets-thecrown/thecrown.png' alt="the-crown" />
                         </div>
                     </div>
                 </div>

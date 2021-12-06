@@ -93,6 +93,16 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .contact-title {
+    font-size: 4rem;
+  }
+  
+  .contact-title-back {
+    font-size: 6rem;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .contact {
     height: 60vh;
@@ -101,10 +111,31 @@
   .contact-title {
     width: 300px;
   }
+
+  .contact-info-p {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .email {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+
+  .contact-title-back {
+    font-size: 5rem;
+  }
+
+  .contact-info-p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .contact-title {
+    font-size: 3rem;
+}
+  .contact-title-back {
+    font-size: 4rem;
+}
 }

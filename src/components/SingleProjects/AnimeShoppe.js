@@ -13,8 +13,8 @@ const AnimeShoppe = () => {
         <section className='single-project'>
             <img className='single-project-img' src={animeShoppeData.headImage} alt="animeshoppe-headphoto" />
             <div data-aos='fade-up' className='project-titles'>
-                <h1 className='project-title'>Anime Shoppe</h1>
-                <h1 className='project-title-back'>Anime Shoppe</h1>
+                <h1 className='single-project-title'>Anime Shoppe</h1>
+                <h1 className='single-project-title-back'>Anime Shoppe</h1>
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>

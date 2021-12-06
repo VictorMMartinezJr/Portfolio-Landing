@@ -8,3 +8,38 @@
     padding: 0 2rem;
     object-fit: contain;
 }
+
+@media screen and (max-width: 768px) {
+    .react-carousel, .carousel-img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .react-carousel, .carousel-img {
+        width: 400px;
+    }
+
+    .react-carousel {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .react-carousel, .carousel-img {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 359px) {
+    .react-carousel, .carousel-img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .react-carousel, .carousel-img {
+        width: 250px;
+    }
+}
