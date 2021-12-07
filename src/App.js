@@ -28,7 +28,7 @@ function App() {
           <meta name='keywords' content='Front end web developer, Victor Martinez Jr, VictorMtzCodes, Victor Mtz Codes' />
         </Helmet>
 
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
           <Switch>
             <Route exact path='/'>
