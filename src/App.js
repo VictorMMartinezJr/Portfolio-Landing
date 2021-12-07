@@ -11,6 +11,8 @@ import Projects from './components/Pages/Projects/Projects';
 import AnimeShoppe from './components/SingleProjects/AnimeShoppe';
 import VisitIceland from './components/SingleProjects/VisitIceland';
 import TheCrown from './components/SingleProjects/TheCrown';
+import Footer from './components/Footer/Footer';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function App() {
   useEffect(() => {
@@ -19,32 +21,41 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path='/'>
-            <Main />
-          </Route>
-          <Route path='/aboutme'>
-            <AboutMe />
-          </Route>
-          <Route path='/projects'>
-            <Projects />
-          </Route>
-          <Route path='/streamvic'>
-            <StreamVic />
-          </Route>
-          <Route path='/animeshoppe'>
-            <AnimeShoppe />
-          </Route>
-          <Route path='/visiticeland'>
-            <VisitIceland />
-          </Route>
-          <Route path='/thecrown'>
-            <TheCrown />
-          </Route>
-        </Switch>
-      </Router>
+      <HelmetProvider>
+        <Helmet>
+          <title>VictorMtzCodes</title>
+          <meta name='description' content='Front end web developer Victor Martinez Jr' />
+          <meta name='keywords' content='Front end web developer, Victor Martinez Jr, VictorMtzCodes, Victor Mtz Codes' />
+        </Helmet>
+
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path='/'>
+              <Main />
+            </Route>
+            <Route path='/aboutme'>
+              <AboutMe />
+            </Route>
+            <Route path='/projects'>
+              <Projects />
+            </Route>
+            <Route path='/streamvic'>
+              <StreamVic />
+            </Route>
+            <Route path='/animeshoppe'>
+              <AnimeShoppe />
+            </Route>
+            <Route path='/visiticeland'>
+              <VisitIceland />
+            </Route>
+            <Route path='/thecrown'>
+              <TheCrown />
+            </Route>
+          </Switch>
+          <Footer />
+        </Router>
+      </HelmetProvider>
     </div>
   );
 }

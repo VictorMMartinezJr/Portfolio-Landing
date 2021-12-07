@@ -2,10 +2,16 @@ import './Projects.css';
 import Stars from '../../Stars/Stars';
 import { NavLink } from 'react-router-dom';
 import ContactMe from '../../ContactMe/ContactMe';
+import { Helmet } from 'react-helmet-async';
+
 
 const Projects = () => {
     return (
         <section className='projects' id='projects'>
+            <Helmet>
+                <title>VictorMtzCodes Projects</title>
+                <meta name='description' content="VictorMtzCodes's Projects" />
+            </Helmet>
             <Stars />
             <div className='projects-content'>
                 <div data-aos='fade-up' className='project-titles'>

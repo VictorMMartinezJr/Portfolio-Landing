@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
 import { streamVicData } from '../../ProjectsData';
+import { Helmet } from 'react-helmet-async';
 
 const StreamVic = () => {
     const featuresSection = useRef(null);
@@ -11,6 +12,10 @@ const StreamVic = () => {
     }
     return (
         <section className='single-project'>
+            <Helmet>
+                <title>StreamVic Project</title>
+                <meta name='description' content="StreamVic Project" />
+            </Helmet>
             <img className='single-project-img' src={streamVicData.headImage} alt="" />
             <div data-aos='fade-up' className='project-titles'>
                 <h1 className='single-project-title'>StreamVic</h1>

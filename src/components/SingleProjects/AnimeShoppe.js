@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
 import { animeShoppeData } from '../../ProjectsData';
+import { Helmet } from 'react-helmet-async';
 
 const AnimeShoppe = () => {
     const featuresSection = useRef(null);
@@ -11,6 +12,10 @@ const AnimeShoppe = () => {
     }
     return (
         <section className='single-project'>
+            <Helmet>
+                <title>Anime Shoppe Project</title>
+                <meta name='description' content="Anime Shoppe Project" />
+            </Helmet>
             <img className='single-project-img' src={animeShoppeData.headImage} alt="animeshoppe-headphoto" />
             <div data-aos='fade-up' className='project-titles'>
                 <h1 className='single-project-title'>Anime Shoppe</h1>

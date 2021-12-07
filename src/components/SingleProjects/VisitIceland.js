@@ -2,7 +2,8 @@ import './SingleProject.css';
 import { useRef } from 'react';
 import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
-import { animeShoppeData, visitIcelandData } from '../../ProjectsData';
+import { visitIcelandData } from '../../ProjectsData';
+import { Helmet } from 'react-helmet-async';
 
 const VisitIceland = () => {
     const featuresSection = useRef(null);
@@ -12,6 +13,10 @@ const VisitIceland = () => {
 
     return (
         <section className='single-project'>
+            <Helmet>
+                <title>Visit Iceland Project</title>
+                <meta name='description' content="Visit Iceland Project" />
+            </Helmet>
             <img className='single-project-img' src={visitIcelandData.headImage} alt="" />
             <div data-aos='fade-up' className='project-titles'>
                 <h1 className='single-project-title'>Visit Iceland</h1>

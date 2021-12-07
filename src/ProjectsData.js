@@ -84,7 +84,7 @@ export const animeShoppeData = {
     },
 
     Products: {
-        title: 'Add/Remove Products',
+        title: 'Cart Products',
 
         textOne: 'The add to cart feature was implemented using the global state and a dispatch. The item that you choose to add to the cart is passed as a payload to the dispatch which adds the product to the global cart array. If the product does not exist in the global cart array, an "Add to Cart button is rendered"',
 

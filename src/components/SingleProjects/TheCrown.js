@@ -2,7 +2,9 @@ import './SingleProject.css';
 import { useRef } from 'react';
 import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
-import { streamVicData, theCrownData } from '../../ProjectsData';
+import { theCrownData } from '../../ProjectsData';
+import { Helmet } from 'react-helmet-async';
+
 
 const TheCrown = () => {
     const featuresSection = useRef(null);
@@ -11,6 +13,10 @@ const TheCrown = () => {
     }
     return (
         <section className='single-project'>
+            <Helmet>
+                <title>The Crown Project</title>
+                <meta name='description' content="The Crown Project" />
+            </Helmet>
             <img className='single-project-img' src={theCrownData.headImage} alt="" />
             <div data-aos='fade-up' className='project-titles'>
                 <h1 className='single-project-title'>The Crown</h1>

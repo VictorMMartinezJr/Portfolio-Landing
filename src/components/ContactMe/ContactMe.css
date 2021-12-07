@@ -7,6 +7,7 @@
   position: relative;
   width: 100%;
   margin-top: 1rem;
+  height: 40vh;
 }  
 
 .contact-content {
@@ -14,17 +15,8 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
   height: 100%;
-  width: 100%;
-}
-
-.contact-titles {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
 }
 
 .contact-title {
@@ -32,13 +24,6 @@
   color: #742fc2;
   z-index: 2;
   font-weight: 900;
-}
-
-.contact-title-back {
-  position: absolute;
-  font-size: 7rem;
-  color: #242424;
-  margin-bottom: 1rem;
 }
 
 .contact-info {
@@ -54,6 +39,7 @@
   font-size: 1.5rem;
   width: 50%;
   text-align: center;
+  line-height: 1.7;
 }
 
 .contact-title {
@@ -61,23 +47,6 @@
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.contact-title i {
-  margin-right: 2rem;
-  font-size: 3rem;
-}
-
-.social-logo {
-  height: 50px;
-  margin-right: 1rem;
-}
-
-
-.social-logo:last-child {
-  height: 50px;
-  margin-left: 1rem;
 }
 
 .email-logo {
@@ -86,56 +55,62 @@
   margin-right: 1rem;
 }
 
-/***** Media Queires *****/
-@media screen and (max-width: 1290px) {
-  .contact-info {
-    margin-top: 2rem;
-  }
+.email-btn {
+  font-size: 2rem;
+  background: #742fc2;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  box-shadow: 0 0 20px #742fc2;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
 }
 
+/***** Media Queires *****/
 @media screen and (max-width: 1024px) {
   .contact-title {
     font-size: 4rem;
   }
   
-  .contact-title-back {
-    font-size: 6rem;
+  .contact-info-p {
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 540px) {
   .contact {
-    height: 60vh;
+    height: auto;
   }
 
   .contact-title {
-    width: 300px;
-  }
-
-  .contact-info-p {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .email {
-    font-size: 1.2rem;
-  }
-
-  .contact-title-back {
-    font-size: 5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
 
   .contact-info-p {
     font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .email-btn {
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-title {
+    font-size: 2.5rem;
   }
 }
 
 @media screen and (max-width: 359px) {
-  .contact-title {
-    font-size: 3rem;
-}
-  .contact-title-back {
-    font-size: 4rem;
-}
+  .email-btn {
+    font-size: 1.2rem;
+  }
 }
