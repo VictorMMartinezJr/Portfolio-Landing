@@ -182,6 +182,6 @@ export const theCrownData = {
     CarouselImages: {
         imageOne: 'assets/assets-thecrown/thecrown-headphoto.png',
         imageTwo: 'assets/assets-thecrown/thecrown-menu-slider.png',
-        imageThree: 'assets/assets-thecrown/thecrown-menu-slider.png'
+        imageThree: 'assets/assets-thecrown/thecrown-footer-slider.png',
     }
 }
