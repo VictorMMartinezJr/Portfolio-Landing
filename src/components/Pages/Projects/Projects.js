@@ -53,7 +53,7 @@ const Projects = () => {
                                     <p className='title-technology'>CSS</p>
                                     <p className='title-technology'>Rest API</p>
                                 </span>
-                                <p className='project-description'>A dynamic web app built for an anime shop.</p>
+                                <p className='project-description'>A dynamic web app for users to browse, search, & favorite movies/tvshows.</p>
                                 <span className='title-links'>
                                     <a href='https://streamvic.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/streamvic' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
