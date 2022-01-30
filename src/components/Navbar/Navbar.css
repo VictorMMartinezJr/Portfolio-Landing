@@ -12,7 +12,7 @@
 }
 
 .nav-logo {
-  height: 100px;
+  width: auto;
   object-fit: contain;
 }
 
@@ -25,7 +25,7 @@
 
 .nav-link {
   list-style: none;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.5rem;
   position: relative;
   cursor: pointer;
@@ -53,8 +53,7 @@
 }
 
 .line-1.toggle {
-  transform: rotate(-45deg)
-    translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .line-2.toggle {
@@ -62,8 +61,7 @@
 }
 
 .line-3.toggle {
-  transform: rotate(45deg)
-    translate(-5px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /***** Media Queires *****/
@@ -91,14 +89,12 @@
     background: #1b1b1b;
     box-shadow: 0 10px 20px #000;
     transform: scale(0);
-    transition: transform 0.2s
-      ease-in-out;
+    transition: transform 0.2s ease-in-out;
   }
 
   .nav-links.active {
     transform: scale(1);
-    transition: transform 0.2s
-      ease-in-out;
+    transition: transform 0.2s ease-in-out;
   }
 
   .nav-link {

@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className='nav'>
-                <img className='nav-logo' src='./assets/images/programming.png' alt="programming" />
+                <img className='nav-logo' src='./assets/images/programming-logo.svg' alt="programming-logo" />
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
                         <NavLink exact to='/' activeClassName={'nav-link is-active'}>HOME</NavLink>
