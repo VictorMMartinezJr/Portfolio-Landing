@@ -33,11 +33,8 @@ function App() {
           <Switch>
             <Route exact path='/'>
               <Main />
-            </Route>
-            <Route path='/aboutme'>
               <AboutMe />
-            </Route>
-            <Route path='/projects'>
+              <AboutMe />
               <Projects />
             </Route>
             <Route path='/streamvic'>
