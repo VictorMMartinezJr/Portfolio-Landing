@@ -1,13 +1,13 @@
 .projects {
+  min-height: 100vh;
   background: #1b1b1b;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #f2f2f2;
   overflow: hidden;
-  font-family: "Poppins", sans-serif;
 }
 
 .projects-content {
@@ -16,7 +16,8 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 100%;
+  width: 80%;
+  margin-top: 15vh;
 }
 
 .project-titles {
@@ -30,19 +31,11 @@
 }
 
 .project-title {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #742fc2;
   z-index: 2;
   font-weight: 900;
 }
-
-.project-title-back {
-  position: absolute;
-  font-size: 7rem;
-  color: #242424;
-  margin-bottom: 1rem;
-}
-
 .projects-h1 {
   width: 50%;
   text-align: center;
@@ -118,7 +111,7 @@
   border: 2px solid #742fc2;
   border-radius: 5px;
   font-weight: 700;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 .project-description {
@@ -160,7 +153,7 @@
 
 .title-links a {
   text-decoration: none;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 /***** media queires *****/
@@ -174,129 +167,128 @@
 @media screen and (max-width: 1024px) {
   .project-container img {
     height: 280px;
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
   .project-title {
     font-size: 4rem;
   }
-  
+
   .project-title-back {
     font-size: 6rem;
   }
 }
 
-
 @media screen and (max-width: 768px) {
-    .projects-h1 {
-        width: 95%;
-      }
-    .project-container {
-        height: auto;
-        padding: .5rem;
-    }
+  .projects-h1 {
+    width: 95%;
+  }
+  .project-container {
+    height: auto;
+    padding: 0.5rem;
+  }
 
-    .project-container-content {
-        flex-direction: column;
-    }
+  .project-container-content {
+    flex-direction: column;
+  }
 
-    .left-image {
-        flex-direction: column-reverse;
-    }
+  .left-image {
+    flex-direction: column-reverse;
+  }
 
-    .project-container img {
-        height: 350px;
-    }
+  .project-container img {
+    height: 350px;
+  }
 
-    .project-header {
-        margin: 0;
-        height: 300px;
-        width: 90%;
-    }
+  .project-header {
+    margin: 0;
+    height: 300px;
+    width: 90%;
+  }
 }
-  
+
 @media screen and (max-width: 540px) {
-    .projects-h1, .project-description  {
-        font-size: 1.2rem;
-      }
-    .project-header {
-        width: 95%;
-    }
+  .projects-h1,
+  .project-description {
+    font-size: 1.2rem;
+  }
+  .project-header {
+    width: 95%;
+  }
 
-    .title-technology {
-        font-weight: 400;
-    }
+  .title-technology {
+    font-weight: 400;
+  }
 
-    .project-container img {
-        height: 250px;
-    }
-
+  .project-container img {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .project-title-back {
-        font-size: 5rem;
-    }
+  .project-title-back {
+    font-size: 5rem;
+  }
 
-    .project-header {
-        width: 98%;
-    }
+  .project-header {
+    width: 98%;
+  }
 
-    .project-description {
-        font-size: 1rem;
-    }
+  .project-description {
+    font-size: 1rem;
+  }
 
-    .project-container img {
-        height: 195px;
-    }
+  .project-container img {
+    height: 195px;
+  }
 
-    .title-technology {
-        margin: .2rem;
-    }
+  .title-technology {
+    margin: 0.2rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .project-title-back {
-        font-size: 5rem;
-    }
+  .project-title-back {
+    font-size: 5rem;
+  }
 
-    .project-container img {
-        height: 170px;
-    }
+  .project-container img {
+    height: 170px;
+  }
 }
 
 @media screen and (max-width: 359px) {
-    .project-title {
-        font-size: 3rem;
-    }
-    .project-title-back {
-        font-size: 4rem;
-    }
+  .project-title {
+    font-size: 3rem;
+  }
+  .project-title-back {
+    font-size: 4rem;
+  }
 
-    .project-header {
-        align-items: center;
-        text-align: center;
-        height: 350px;
-    }
+  .project-header {
+    align-items: center;
+    text-align: center;
+    height: 350px;
+  }
 
-    .title-technologies {
-        justify-content: center;
-    }
-    
-    .project-container img {
-        height: 145px;
-    }
+  .title-technologies {
+    justify-content: center;
+  }
 
-    .project-head {
-        font-size: 2rem;
-    }
+  .project-container img {
+    height: 145px;
+  }
 
-    .title-links {
-        flex-wrap: wrap;
-    }
+  .project-head {
+    font-size: 2rem;
+  }
+
+  .title-links {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 300px) {
-    .project-container img {
-        height: 130px;
-    }
+  .project-container img {
+    height: 130px;
+  }
 }

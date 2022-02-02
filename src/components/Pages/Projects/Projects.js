@@ -14,10 +14,7 @@ const Projects = () => {
             </Helmet>
             <Stars />
             <div className='projects-content'>
-                <div data-aos='fade-up' className='project-titles'>
-                    <h1 className='project-title'>Projects</h1>
-                    <h1 className='project-title-back'>Projects</h1>
-                </div>
+                <h1 data-aos='fade-up' className='project-title'>Projects</h1>
                 <h1 className='projects-h1'>Some of my recent projects, I'm always working on something new so stay turned for more</h1>
                 <div className='projects-info'>
                     {/*anime shoppe project */}
@@ -111,10 +108,6 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='contact-div'>
-                <ContactMe />
-                <i className="far fa-arrow-alt-circle-up arrow-up" onClick={() => window.scrollTo(0, 0)}></i>
             </div>
         </section>
     )

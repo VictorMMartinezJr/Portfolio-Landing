@@ -4,10 +4,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: static;
-  color: #fff;
+  position: fixed;
+  color: #f2f2f2;
   z-index: 4;
-  background: #1b1b1b;
+  background: #181717;
   font-family: "Poppins", sans-serif;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .nav-link a {
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@
   height: 3px;
   width: 25px;
   margin: 5px;
-  background: #fff;
+  background: #f2f2f2;
   transition: transform 0.2s ease-in-out;
 }
 

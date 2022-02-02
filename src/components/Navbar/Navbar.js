@@ -40,15 +40,17 @@ const Navbar = () => {
                 </div>
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <NavLink exact to='/' activeClassName={'nav-link is-active'}>HOME</NavLink>
+                        <a href='http://localhost:3001/#home'>HOME</a>
                     </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <NavLink to='/aboutme' activeClassName={'nav-link is-active'}>ABOUT ME</NavLink>
+                        <a href='http://localhost:3001/#aboutme'>ABOUT ME</a>
                     </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <NavLink to='/projects' activeClassName={'nav-link is-active'}>PROJECTS</NavLink>
+                        <a href='http://localhost:3001/#projects'>PROJECTS</a>
                     </li>
-                    <li className="nav-link" onClick={() => setNavActive(false)}><a href='#contact'>CONTACT</a></li>
+                    <li className="nav-link" onClick={() => setNavActive(false)}>
+                        <a href='http://localhost:3001/#contact'>CONTACT</a>
+                    </li>
                 </ul>
                 <div className='burger' onClick={() => setNavActive(!navActive)}>
                     <div className={navActive ? 'line-1 toggle' : 'line-1'}></div>

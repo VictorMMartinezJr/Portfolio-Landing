@@ -8,7 +8,6 @@ const Main = () => {
     const greenLineRef = useRef(null);
     const yellowLineRef = useRef(null);
     const redLineRef = useRef(null);
-    const purpleLineRef = useRef(null);
     const blueLineRef = useRef(null);
     const rightHandRef = useRef(null);
     const leftHandRef = useRef(null);
@@ -18,8 +17,6 @@ const Main = () => {
     const yellowLineEnd = "M248 88H202V92H248V88Z";
     const redLineStart = "M203 79H202V83H203V79Z";
     const redLineEnd = "M259 79H202V83H259V79Z";
-    const purpleLineStart = "M192 69H191V73H192V69Z";
-    const purpleLineEnd = "M264 69H191V73H264V69Z";
     const blueLineStart = "M193 99H192V103H193V99Z";
     const blueLineEnd = "M259 99H192V103H259V99Z";
 
@@ -27,7 +24,6 @@ const Main = () => {
         gsap.fromTo(greenLineRef.current, {attr: {d: greenLineStart}}, {attr: {d: greenLineEnd}, repeat: -1, duration: 1});
         gsap.fromTo(yellowLineRef.current, {attr: {d: yellowLineStart}}, {attr: {d: yellowLineEnd}, repeat: -1, duration: 1.1});
         gsap.fromTo(redLineRef.current, {attr: {d: redLineStart}}, {attr: {d: redLineEnd}, repeat: -1, duration: 1.3});
-        gsap.fromTo(purpleLineRef.current, {attr: {d: purpleLineStart}}, {attr: {d: purpleLineEnd}, repeat: -1, duration: 1.5});
         gsap.fromTo(blueLineRef.current, {attr: {d: blueLineStart}}, {attr: {d: blueLineEnd}, repeat: -1, duration: 1.5});
         gsap.fromTo(rightHandRef.current,{rotation: 0}, {rotation: 3.5, repeat: -1, yoyo: true});
         gsap.fromTo(leftHandRef.current,{rotation: 0}, {rotation: -3.5, repeat: -1, yoyo: true});
@@ -37,10 +33,6 @@ const Main = () => {
             <Stars />
             <div className='main-content'>
                 <div className='main-background-text'>DEVELOPER</div>
-                <div className="main-content-images mobile-images">
-                    <img className='html-logo' src='./assets/images/html.png' alt="html-logo" />
-                    <img className='css-logo' src='./assets/images/css.png' alt="css-logo" />
-                </div>
                 <div className='main-content-text'>
                     <h1 className='main-content-h1'><span className='dark-h1'>I'm a</span><br></br>FRONT END<br></br><span className='h1-span'>WEB DEVELOPER</span><i className="fas fa-square-full main-period"></i></h1>
                     <a href='#contact'><button className='main-content-btn'>CONTACT ME</button></a>
@@ -79,12 +71,7 @@ const Main = () => {
                         </g>
                     </svg>
                 </div>
-                <div className="main-content-images mobile-images">
-                    <img className='js-logo' src='./assets/images/js.png' alt="js-logo" />
-                    <img className='react-logo' src='./assets/images/react.png' alt="react-logo" />
-                </div>
             </div>
-            <Contact />
         </section>
     )
 }

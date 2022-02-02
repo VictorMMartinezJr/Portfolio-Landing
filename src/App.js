@@ -13,6 +13,7 @@ import VisitIceland from './components/SingleProjects/VisitIceland';
 import TheCrown from './components/SingleProjects/TheCrown';
 import Footer from './components/Footer/Footer';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import ContactMe from './components/ContactMe/ContactMe';
 
 function App() {
   useEffect(() => {
@@ -34,8 +35,8 @@ function App() {
             <Route exact path='/'>
               <Main />
               <AboutMe />
-              <AboutMe />
               <Projects />
+              <ContactMe />
             </Route>
             <Route path='/streamvic'>
               <StreamVic />
