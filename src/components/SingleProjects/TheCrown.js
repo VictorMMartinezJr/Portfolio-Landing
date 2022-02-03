@@ -4,6 +4,7 @@ import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
 import { theCrownData } from '../../ProjectsData';
 import { Helmet } from 'react-helmet-async';
+import MainButton from '../MainButton';
 
 
 const TheCrown = () => {
@@ -17,10 +18,9 @@ const TheCrown = () => {
                 <title>The Crown Project</title>
                 <meta name='description' content="The Crown Project" />
             </Helmet>
-            <img className='single-project-img' src={theCrownData.headImage} alt="" />
-            <div data-aos='fade-up' className='project-titles'>
+            <div className='project-headers'>
                 <h1 className='single-project-title'>The Crown</h1>
-                <h1 className='single-project-title-back'>The Crown</h1>
+                <MainButton link='https://thecrown.netlify.app/' text='LIVE SITE' style={{fontSize: '1.3rem'}} />
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>

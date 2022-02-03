@@ -4,6 +4,7 @@ import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
 import { animeShoppeData } from '../../ProjectsData';
 import { Helmet } from 'react-helmet-async';
+import MainButton from '../MainButton';
 
 const AnimeShoppe = () => {
     const featuresSection = useRef(null);
@@ -16,10 +17,9 @@ const AnimeShoppe = () => {
                 <title>Anime Shoppe Project</title>
                 <meta name='description' content="Anime Shoppe Project" />
             </Helmet>
-            <img className='single-project-img' src={animeShoppeData.headImage} alt="animeshoppe-headphoto" />
-            <div data-aos='fade-up' className='project-titles'>
+            <div className='project-headers'>
                 <h1 className='single-project-title'>Anime Shoppe</h1>
-                <h1 className='single-project-title-back'>Anime Shoppe</h1>
+                <MainButton link='https://anime-shoppe.netlify.app/' text='LIVE SITE' style={{fontSize: '1.3rem'}} />
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>

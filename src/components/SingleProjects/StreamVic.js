@@ -4,6 +4,7 @@ import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
 import { streamVicData } from '../../ProjectsData';
 import { Helmet } from 'react-helmet-async';
+import MainButton from '../MainButton';
 
 const StreamVic = () => {
     const featuresSection = useRef(null);
@@ -16,10 +17,9 @@ const StreamVic = () => {
                 <title>StreamVic Project</title>
                 <meta name='description' content="StreamVic Project" />
             </Helmet>
-            <img className='single-project-img' src={streamVicData.headImage} alt="" />
-            <div data-aos='fade-up' className='project-titles'>
+            <div className='project-headers'>
                 <h1 className='single-project-title'>StreamVic</h1>
-                <h1 className='single-project-title-back'>StreamVic</h1>
+                <MainButton link='https://streamvic.netlify.app/' text='LIVE SITE' style={{fontSize: '1.3rem'}} />
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>

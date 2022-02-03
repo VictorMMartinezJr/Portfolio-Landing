@@ -4,6 +4,7 @@ import ProjectImagesCarousel from './ProjectImagesCarousel';
 import ContactMe from '../ContactMe/ContactMe';
 import { visitIcelandData } from '../../ProjectsData';
 import { Helmet } from 'react-helmet-async';
+import MainButton from '../MainButton';
 
 const VisitIceland = () => {
     const featuresSection = useRef(null);
@@ -17,10 +18,9 @@ const VisitIceland = () => {
                 <title>Visit Iceland Project</title>
                 <meta name='description' content="Visit Iceland Project" />
             </Helmet>
-            <img className='single-project-img' src={visitIcelandData.headImage} alt="" />
-            <div data-aos='fade-up' className='project-titles'>
+            <div className='project-headers'>
                 <h1 className='single-project-title'>Visit Iceland</h1>
-                <h1 className='single-project-title-back'>Visit Iceland</h1>
+                <MainButton link='https://traveltoiceland.netlify.app/' text='LIVE SITE' style={{fontSize: '1.3rem'}} />
                 <i className="far fa-arrow-alt-circle-down arrow-down" onClick={goToFeatures}></i>
             </div>
             <div className='single-project-overview'>
