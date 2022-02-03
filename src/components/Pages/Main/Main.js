@@ -1,8 +1,8 @@
 import './Main.css';
 import Stars from '../../Stars/Stars';
-import Contact from '../../ContactMe/ContactMe';
 import {useRef, useEffect} from 'react';
 import {gsap} from 'gsap'
+import MainButton from '../../MainButton';
 
 const Main = () => {
     const greenLineRef = useRef(null);
@@ -35,11 +35,11 @@ const Main = () => {
                 <div className='main-background-text'>DEVELOPER</div>
                 <div className='main-content-text'>
                     <h1 className='main-content-h1'><span className='dark-h1'>I'm a</span><br></br>FRONT END<br></br><span className='h1-span'>WEB DEVELOPER</span><i className="fas fa-square-full main-period"></i></h1>
-                    <a href='#contact'><button className='main-content-btn'>CONTACT ME</button></a>
+                    <MainButton type='main-btn' link='#contact' text='CONTACT ME' />
                 </div>
                 <div className="main-svg">
                     {/* svg */}
-                    <svg width="800" height="800" viewBox="0 0 406 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg viewBox="0 0 406 306" fill="none" xmlns="http://www.w3.org/2000/svg" className='coding-svg'>
                         <g id="coding-type">
                         <path id="Vector" d="M278.607 42.365H150.931V131.269H278.607V42.365Z" fill="#E6E6E6"/>
                         <path id="Vector_2" d="M265.879 145.296H164.877V186.749H265.879V145.296Z" fill="#C9C9C9"/>
