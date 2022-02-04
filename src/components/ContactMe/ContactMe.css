@@ -6,7 +6,7 @@
   color: #fff;
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 30vh;
 }
 
 .contact-content {
@@ -16,29 +16,21 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  z-index: 2;
 }
 
 .contact-title {
   font-size: 4rem;
   color: #742fc2;
   z-index: 2;
-  font-weight: 900;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  font-size: 2rem;
-}
-
-.contact-info-p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  width: 50%;
+.contact-p {
+  font-size: 1.3rem;
+  width: 70%;
   text-align: center;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .contact-title {
@@ -47,34 +39,17 @@
   align-items: center;
   font-weight: 700;
 }
-
-.email-logo {
-  height: 30px;
-  position: static;
-  margin-right: 1rem;
-}
-
-.email-btn {
-  font-size: 2rem;
-  background: #742fc2;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  font-weight: 700;
-  box-shadow: 0 0 20px #742fc2;
-  cursor: pointer;
+.contact-content a {
   text-decoration: none;
-  z-index: 2;
+  color: #f2f2f2;
 }
-
 /***** Media Queires *****/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .contact-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-
-  .contact-info-p {
-    width: 70%;
+  .contact-p {
+    width: 50%;
   }
 }
 
@@ -82,34 +57,21 @@
   .contact {
     height: auto;
   }
-
   .contact-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
-
-  .contact-info-p {
+  .contact-p {
     font-size: 1rem;
     margin-bottom: 1rem;
     width: 100%;
     padding: 0 1rem;
   }
-
-  .email-btn {
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-  }
 }
-
 @media screen and (max-width: 500px) {
-  .contact-title {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width: 359px) {
-  .email-btn {
-    font-size: 1.2rem;
+  .secondary-btn {
+    display: block;
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
   }
 }
