@@ -1,8 +1,9 @@
 import './Projects.css';
 import Stars from '../../Stars/Stars';
 import { NavLink } from 'react-router-dom';
-import ContactMe from '../../ContactMe/ContactMe';
 import { Helmet } from 'react-helmet-async';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 const Projects = () => {
@@ -14,13 +15,13 @@ const Projects = () => {
             </Helmet>
             <Stars />
             <div className='projects-content'>
-                <h1 data-aos='fade-up' className='project-title'>Projects</h1>
+                <h1 data-aos='fade-up' className='project-title'>PROJECTS</h1>
                 <h1 className='projects-h1'>Some of my recent projects, I'm always working on something new so stay turned for more</h1>
                 <div className='projects-info'>
                     {/*anime shoppe project */}
                     <div data-aos='fade-left' className='project-container'>
                         <div className='project-container-content left-image'>
-                            <img src='./assets/assets-animeshoppe/animeshoppe.png' alt="anime-shoppe" />
+                            <LazyLoadImage src='./assets/assets-animeshoppe/anime-attire-project.png' alt="anime-shoppe" />
                             <div className='project-header'>
                                 <p className='project-head'>Anime Shoppe</p>
                                 <span className='title-technologies'>
@@ -59,13 +60,13 @@ const Projects = () => {
                                     </NavLink>
                                 </span>
                             </div>
-                            <img src='./assets/assets-streamvic/streamvic-carousel.png' alt="streamvic" />
+                            <LazyLoadImage src='./assets/assets-streamvic/streamvic-project.png' alt="streamvic" />
                         </div>
                     </div>
                     {/* visit iceland project */}
                     <div data-aos='fade-left' className='project-container'>
                         <div className='project-container-content left-image'>
-                            <img src='./assets/assets-visiticeland/visit-iceland.png' alt="visit-iceland" />
+                            <LazyLoadImage src='./assets/assets-visiticeland/visit-iceland.png' alt="visit-iceland" />
                             <div className='project-header'>
                                 <p className='project-head'>Visit Iceland</p>
                                 <span className='title-technologies'>
@@ -104,7 +105,7 @@ const Projects = () => {
                                     </NavLink>
                                 </span>
                             </div>
-                            <img src='./assets/assets-thecrown/thecrown.png' alt="the-crown" />
+                            <LazyLoadImage src='./assets/assets-thecrown/thecrown.png' alt="the-crown" />
                         </div>
                     </div>
                 </div>
