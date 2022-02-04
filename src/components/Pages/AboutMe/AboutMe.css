@@ -1,38 +1,40 @@
 .aboutme {
-  min-height: 100vh;
+  height: 100vh;
   background: #1b1b1b;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   color: #f2f2f2;
   position: relative;
+  overflow-x: hidden;
 }
 .aboutme-title {
   font-size: 4rem;
   color: #742fc2;
-  font-weight: 900;
-  transform: translateY(10vh);
+  font-weight: 700;
   align-self: center;
+  letter-spacing: 3px;
 }
 .aboutme-content {
-  min-height: 80vh;
   width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  justify-content: start;
+  transform: translateY(-10px);
 }
 .aboutme-subtitle {
   font-size: 2.8rem;
   color: #742fc2;
-  font-weight: 900;
+  font-weight: 700;
+  align-self: flex-start;
 }
 .aboutme-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 50vh;
-  width: 70%;
+  justify-content: space-between;
+  width: 100%;
   font-size: 1.3rem;
   line-height: 1.5;
   position: relative;
@@ -40,11 +42,11 @@
   flex: 1;
   padding: 0 2rem;
 }
-.aboutme-info p:nth-child(3) {
-  margin: 1rem 0;
+.aboutme-info p {
+  margin: 0.8rem 0;
 }
-.aboutme-paragraph {
-  margin: 1rem 0;
+.skills-btn {
+  margin-top: 0.8rem;
 }
 .name-span {
   color: #742fc2;
@@ -52,29 +54,57 @@
 }
 .skills-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex: 1;
   padding: 0 2rem;
 }
 /***** Media queries *****/
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .aboutme-content {
-    margin: 0;
-    width: 95%;
+    width: 100%;
   }
-  .aboutme-title-back {
-    font-size: 6rem;
+  .aboutme-title {
+    font-size: 3rem;
+    padding-top: 7vh;
+  }
+  .aboutme p {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .aboutme {
+    height: auto;
+  }
+  .aboutme-title {
+    margin: 1rem 0 2rem 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutme {
+    justify-content: space-between;
+  }
+  .aboutme-content {
+    grid-template-columns: 1fr;
+  }
+  .aboutme-subtitle {
+    font-size: 2rem;
+  }
+  .skills-btn {
+    font-size: 1rem;
+  }
+  .skills-section {
+    margin: 4rem 0;
   }
 }
 @media screen and (max-width: 540px) {
   .aboutme-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-  .aboutme-title-back {
-    font-size: 4rem;
+  .aboutme-subtitle {
+    font-size: 1.7rem;
   }
-  .aboutme-info {
+  .aboutme-info p {
     font-size: 1rem;
   }
 }
@@ -85,12 +115,16 @@
   .aboutme-title-back {
     font-size: 3rem;
   }
+  .skills-btn {
+    display: block;
+    padding: 0.8rem 3rem;
+  }
 }
 @media screen and (max-width: 300px) {
-  .aboutme-titles {
-    align-items: center;
+  .aboutme-info {
+    padding: 0 1rem;
   }
-  .aboutme-info p {
-    padding: 0 0 0 1rem;
+  .skills-section {
+    padding: 0 1rem;
   }
 }

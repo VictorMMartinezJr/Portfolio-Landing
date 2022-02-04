@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   width: 100%;
-  height: 50vh;
 }
 
 .skills-content {
@@ -17,18 +16,25 @@
   font-weight: 900;
   margin-bottom: 3rem;
 }
-.skills-images {
+.skills-images-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills-top-images {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
 }
-.softskills-logos {
+.skills-bottom-images {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 80%;
-}
-.skills-images {
-  margin-bottom: 2rem;
 }
 .skills-logo-container {
   display: flex;
@@ -53,31 +59,37 @@
     -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg);
   }
 }
-
-@media screen and (max-width: 540px) {
-  .skills img {
-    height: 60px;
+@media screen and (max-width: 768px) {
+  .skills-title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
   }
-
-  .skills-images {
-    width: 100%;
+  .skills-images-container {
+    flex-direction: row;
+  }
+  .skills-top-images {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  .skills-images-container {
+    flex-direction: column;
+  }
+  .skills-top-images {
+    margin-bottom: 2rem;
+  }
+  .skills img {
+    height: 45px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .skills img {
-    height: 60px;
-  }
-}
-
-@media screen and (max-width: 359px) {
-  .skills img {
-    height: 50px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .skills img {
     height: 40px;
   }
+  .skills p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 300px) {
 }
