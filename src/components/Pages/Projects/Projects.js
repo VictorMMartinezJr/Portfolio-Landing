@@ -86,26 +86,26 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/*the crown restaurant project */}
+                    {/*Italian Pie pizza restaurant project */}
                     <div data-aos='fade-right' className='project-container'>
                         <div className='project-container-content'>
                             <div className='project-header'>
-                                <p className='project-head'>The Crown</p>
+                                <p className='project-head'>Italian Pie</p>
                                 <span className='title-technologies'>
                                     <p className='title-technology'>React</p>
                                     <p className='title-technology'>HTML5</p>
                                     <p className='title-technology'>CSS</p>
                                 </span>
-                                <p className='project-description'>A dynamic web application UI for a high end restaurant.</p>
+                                <p className='project-description'>A dynamic web application UI for a pizza shop.</p>
                                 <span className='title-links'>
-                                    <a href='https://thecrown.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
-                                    <a href='https://github.com/VictorMtzCode/TheCrown' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
+                                    <a href='https://italianpie.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
+                                    <a href='https://github.com/VictorMtzCode/PizzaRestaurant' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
                                     <NavLink to='/thecrown' onClick={() => window.scrollTo(0, 0)}>
                                         <p className='title-link'>Learn More</p>
                                     </NavLink>
                                 </span>
                             </div>
-                            <LazyLoadImage src='./assets/assets-thecrown/thecrown.png' alt="the-crown" />
+                            <LazyLoadImage src='./assets/assets-thecrown/pizza-ui.png' alt="italian-pie" />
                         </div>
                     </div>
                 </div>
