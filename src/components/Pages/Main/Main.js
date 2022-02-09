@@ -35,7 +35,7 @@ const Main = () => {
                 <div className='main-background-text'>DEVELOPER</div>
                 <div className='main-content-text'>
                     <h1 className='main-content-h1'><span className='dark-h1'>I'm a</span><br></br>FRONT END<br></br><span className='h1-span'>WEB DEVELOPER</span><i className="fas fa-square-full main-period"></i></h1>
-                    <MainButton type='main-btn' link='#contact' text='CONTACT ME' />
+                    <MainButton type='main-btn' link='#contact' text='CONTACT' />
                 </div>
                 <div className="main-svg">
                     {/* svg */}

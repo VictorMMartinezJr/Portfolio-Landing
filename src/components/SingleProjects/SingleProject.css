@@ -6,20 +6,14 @@
   font-family: "Poppins", sans-serif;
   color: #f2f2f2;
   width: 100%;
-  transform: translateY(10vh);
+  padding-top: 7vh;
 }
-
-.single-project-img {
-  object-fit: contain;
-  height: 400px;
-}
-
 .project-headers {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 100%;
   position: relative;
 }
 
@@ -30,11 +24,14 @@
   font-weight: 700;
   margin: 2rem;
 }
-.arrow-down {
+.arrow-down,
+.arrow-up {
   position: absolute;
-  right: 0;
+  right: 20%;
   bottom: 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #f2f2f2;
 }
 
 .single-project-overview {
@@ -59,13 +56,13 @@
   font-size: 2.8rem;
   color: #742fc2;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .single-project-p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding-right: 0.5rem;
-  line-height: 1.4;
+  line-height: 1.5;
   margin-bottom: 1rem;
 }
 
@@ -76,8 +73,7 @@
 }
 
 .features-title {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.8rem;
   color: #742fc2;
 }
 
@@ -88,7 +84,7 @@
   margin: 1rem 0;
 }
 
-.feature-no-photo h1 {
+.feature-h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   border-bottom: 3px solid #742fc2;
@@ -107,28 +103,22 @@
   align-items: flex-start;
   margin: 1rem 0;
 }
-
-.feature-with-photo-info h1 {
-  border-bottom: 3px solid #742fc2;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
-
-.feature-with-photo img {
+.feature-img {
   height: 400px;
   object-fit: contain;
   border-radius: 10px;
 }
+.contact-div {
+  position: relative;
+  width: 100%;
+}
 
 /***** media queires *****/
-
 @media screen and (max-width: 1280px) {
-  .single-project-img {
-    height: 350px;
-    margin-top: 2rem;
+  .single-project-title {
+    font-size: 3rem;
   }
-
-  .feature-with-photo img {
+  .feature-img {
     height: 350px;
   }
 
@@ -136,159 +126,56 @@
   .single-project-features {
     width: 95%;
   }
-
-  .arrow-down {
-    margin-left: 5rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .single-project-img {
-    height: 300px;
-    margin-top: 2rem;
+  .single-project-overview h1,
+  .features-title {
+    font-size: 2rem;
   }
-
-  .feature-with-photo img {
-    height: 280px;
+  .feature-h1 {
+    font-size: 1.5rem;
+  }
+  .feature-img {
+    height: 250px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .single-project-title {
-    font-size: 3rem;
-  }
-  .single-project-title-back {
-    font-size: 4rem;
-  }
-
-  .single-project-overview h1 {
     font-size: 2.5rem;
   }
-
+  .single-project-overview h1,
   .features-title {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
-
-  .feature-no-photo h1,
-  .feature-with-photo h1 {
-    font-size: 1.5rem;
+  .feature-h1 {
+    font-size: 1.2rem;
   }
   .single-project-p {
     font-size: 1rem;
   }
-
-  .single-project-img {
-    height: 200px;
-  }
-
-  .feature-with-photo img {
-    height: 200px;
-  }
-
-  .arrow-down {
-    margin-left: 3rem;
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .single-project-title {
-    font-size: 2.5rem;
-  }
-  .single-project-title-back {
-    font-size: 3rem;
-  }
-
-  .single-project-overview h1 {
-    font-size: 2.5rem;
-  }
-
-  .features-title {
-    font-size: 2.5rem;
-  }
-
-  .feature-no-photo h1,
-  .feature-with-photo h1 {
-    font-size: 1.5rem;
-  }
-
-  .single-project-p {
-    font-size: 1rem;
-  }
-
-  .single-project-img {
-    height: 200px;
-  }
-
-  .feature-with-photo img {
+  .feature-img {
     height: 160px;
   }
 
-  .arrow-down {
-    margin-left: 2rem;
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .single-project-img {
-    height: 170px;
-  }
-
-  .feature-with-photo img {
-    height: 145px;
-  }
-
-  .arrow-down {
-    font-size: 2rem;
-    margin-left: 1rem;
-  }
-}
-
-@media screen and (max-width: 359px) {
-  .single-project-overview,
-  .single-project-features {
-    align-items: center;
-  }
-
-  .single-project-p {
-    align-self: center;
-    padding-left: 0.5rem;
-  }
-  .single-project-title,
-  .features-title,
-  .single-project-overview h1 {
-    font-size: 2rem;
-  }
-
-  .single-project-title-back {
-    font-size: 2.3rem;
-  }
-
-  .feature-no-photo,
-  .feature-with-photo-info {
-    align-items: center;
-  }
-
-  .single-project-img {
-    height: 150px;
-  }
-
-  .feature-with-photo img {
-    height: 125px;
-  }
-
-  .arrow-down {
+  .arrow-down,
+  .arrow-up {
+    right: 10%;
     font-size: 1.5rem;
   }
 }
-
-@media screen and (max-width: 300px) {
-  .single-project-img {
-    height: 120px;
+@media screen and (max-width: 400px) {
+  .feature-img {
+    height: 145px;
   }
-
-  .feature-with-photo img {
-    height: 100px;
+}
+@media screen and (max-width: 359px) {
+  .arrow-down,
+  .arrow-up {
+    right: 5%;
+  }
+  .single-project-technologies {
+    align-self: flex-start;
   }
 }

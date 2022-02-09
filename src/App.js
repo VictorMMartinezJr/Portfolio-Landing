@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/Pages/Projects/Projects';
 import AnimeShoppe from './components/SingleProjects/AnimeShoppe';
 import VisitIceland from './components/SingleProjects/VisitIceland';
-import TheCrown from './components/SingleProjects/TheCrown';
+import ItalianPie from './components/SingleProjects/ItalianPie';
 import Footer from './components/Footer/Footer';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactMe from './components/ContactMe/ContactMe';
@@ -47,8 +47,8 @@ function App() {
             <Route path='/visiticeland'>
               <VisitIceland />
             </Route>
-            <Route path='/thecrown'>
-              <TheCrown />
+            <Route path='/italianpie'>
+              <ItalianPie />
             </Route>
           </Switch>
           <Footer />

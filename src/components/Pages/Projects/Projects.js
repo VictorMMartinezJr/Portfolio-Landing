@@ -100,12 +100,12 @@ const Projects = () => {
                                 <span className='title-links'>
                                     <a href='https://italianpie.netlify.app/' target="_blank" rel='noreferrer'><p className='title-link'>Live Site</p></a>
                                     <a href='https://github.com/VictorMtzCode/PizzaRestaurant' target="_blank" rel='noreferrer'><p className='title-link'>GitHub</p></a>
-                                    <NavLink to='/thecrown' onClick={() => window.scrollTo(0, 0)}>
+                                    <NavLink to='/italianpie' onClick={() => window.scrollTo(0, 0)}>
                                         <p className='title-link'>Learn More</p>
                                     </NavLink>
                                 </span>
                             </div>
-                            <LazyLoadImage src='./assets/assets-thecrown/pizza-ui.png' alt="italian-pie" />
+                            <LazyLoadImage src='./assets/assets-italianpie/pizza-ui.png' alt="italian-pie" />
                         </div>
                     </div>
                 </div>

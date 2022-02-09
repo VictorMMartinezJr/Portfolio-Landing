@@ -1,5 +1,4 @@
 export const streamVicData = {
-    headImage: 'assets/assets-streamvic/streamvic-headphoto.png',
     Overview: {
         title: 'Overview',
 
@@ -19,7 +18,7 @@ export const streamVicData = {
 
         textTwo: 'The previous arrow gets disabled if the page is one & the next arrow also gets disabled if the page is 4. Props are used in this component to get the data needed such as page, maxPages, handlePrevPage/handleNextPage functions etc.',
 
-        image: 'assets/assets-streamvic/streamvic-pagination.png'
+        image: 'assets/assets-streamvic/pagination.png'
     },
 
     Favorites: {
@@ -35,7 +34,7 @@ export const streamVicData = {
 
         textTwo: "The input field value is placed in the TMDB API search url dynamically after the form is submitted. If the form is submitted without an input value, an error message will appear to let the user know the value is empty. There is also an error message for a search value that doesn't have any results in the database.",
 
-        image: 'assets/assets-streamvic/streamvic-search.png'
+        image: 'assets/assets-streamvic/search-page.png'
     },
 
     Details: {
@@ -45,19 +44,18 @@ export const streamVicData = {
 
         textTwo: "Details such as an overview, rating, genres, trailer, and cast info is displayed on the page. The option to favorite the movie/show is also avaliable on the details page.",
 
-        image: 'assets/assets-streamvic/streamvic-details.png'
+        image: 'assets/assets-streamvic/details-page.png'
     },
 
     CarouselImages: {
-        imageOne: 'assets/assets-streamvic/streamvic-movies-slider.png',
+        imageOne: 'assets/assets-streamvic/search-page.png',
         imageTwo: 'assets/assets-streamvic/streamvic-headphoto.png',
-        imageThree: 'assets/assets-streamvic/streamvic-details-slider.png'
+        imageThree: 'assets/assets-streamvic/details-page.png'
     }
 
 }
 
 export const animeShoppeData = {
-    headImage: 'assets/assets-animeshoppe/animeshoppe-headphoto.png',
     Overview: {
         title: 'Overview',
 
@@ -75,7 +73,7 @@ export const animeShoppeData = {
 
         textOne: "The load more component uses props to load more data on click. With every click 8 more products get rendered and the button disappears if the there isn't enough products left to render",
 
-        image: 'assets/assets-animeshoppe/animeshoppe-loadmore.png'
+        image: 'assets/assets-animeshoppe/loadmore.png'
     },
     Search: {
         title: 'Search',
@@ -90,7 +88,7 @@ export const animeShoppeData = {
 
         textTwo: "The remove from cart feature was implemented using the global state and a dispatch as well. The item that you choose to remove from the cart is passed as a payload to the dispatch which filters the cart array and checks for any id that matches the product id, then removes it. If the product exists in the global cart array, a 'Remove from Cart' button is rendered",
 
-        image: 'assets/assets-animeshoppe/animeshoppe-products.png'
+        image: 'assets/assets-animeshoppe/products-in-cart.png'
     },
 
     Cart: {
@@ -100,18 +98,17 @@ export const animeShoppeData = {
 
         textTwo: "Each item is given a remove button that removes the item from the cart and the cart pagee. The total price of all the items will then update in real time to the correct amount of all the items still in the cart.",
 
-        image: 'assets/assets-animeshoppe/animeshoppe-cart.png'
+        image: 'assets/assets-animeshoppe/cart-page.png'
     },
 
     CarouselImages: {
-        imageOne: 'assets/assets-animeshoppe/animeshoppe-headphoto.png',
-        imageTwo: 'assets/assets-animeshoppe/animeshoppe-cart-slider.png',
-        imageThree: 'assets/assets-animeshoppe/animeshoppe-search-slider.png'
+        imageOne: 'assets/assets-animeshoppe/loadmore.png',
+        imageTwo: 'assets/assets-animeshoppe/products-in-cart.png',
+        imageThree: 'assets/assets-animeshoppe/cart-page.png'
     }
 }
 
 export const visitIcelandData = {
-    headImage: 'assets/assets-visiticeland/visiticeland-headphoto.png',
     Overview: {
         title: 'Overview',
 
@@ -157,31 +154,33 @@ export const visitIcelandData = {
     }
 }
 
-export const theCrownData = {
-    headImage: 'assets/assets-thecrown/thecrown-headphoto.png',
+export const italianPieData = {
     Overview: {
         title: 'Overview',
 
-        text: 'The Crown is a single page web app built with ReactJs for a high end restaurant in downtown Atlanta. It uses the AOS library to add animations on sections as the user scrolls down the website.'
+        text: 'Italian Pie is a multi page web app built with HTML5, CSS, & vanilla JavaScript. It uses GSAP and Barba JS to add animations on sections as well as animations on page changes.'
     },
+    Svg: {
+        title: 'Svg Animations',
 
-    Scroll: {
-        title: 'Scroll to Section',
-
-        text: 'The navbar links scroll on click to the top offset of the clicked section on the page.'
+        text: 'A small pizza svg animation occurs in the navbar when the webpage loads. The pizza rotates 360deg and a slice flys away.'
     },
+    PageTransitions: {
+        title: 'Page Transition Animations',
 
-    Cards: {
-        title: 'Flexbox Cards',
+        text: "GSAP & BARBA JS are used together to create an animation for the page leaving and the page entering. The text and pizza image each have different animations when leaving and entering the webpage."
+    },
+    ScrollAnimations: {
+        title: 'Scroll Animations',
 
-        textOne: 'The crown app is full of resuable card components created with flexbox. Each card is evenly spaced and shows the power of flexbox.',
+        text: "Using GSAP ScrollTrigger, every section has a different animation as you're scrolling down the page.",
 
-        image: 'assets/assets-thecrown/thecrown-menu.png'
+        image: 'assets/assets-italianpie/menu-animation.png'
     },
 
     CarouselImages: {
-        imageOne: 'assets/assets-thecrown/thecrown-headphoto.png',
-        imageTwo: 'assets/assets-thecrown/thecrown-menu-slider.png',
-        imageThree: 'assets/assets-thecrown/thecrown-footer-slider.png',
+        imageOne: 'assets/assets-italianpie/pizza-ui.png',
+        imageTwo: 'assets/assets-italianpie/gallery-section.png',
+        imageThree: 'assets/assets-italianpie/contact-section.png',
     }
 }
