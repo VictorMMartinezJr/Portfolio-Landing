@@ -9,7 +9,6 @@ import StreamVic from './components/SingleProjects/StreamVic';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/Pages/Projects/Projects';
 import AnimeShoppe from './components/SingleProjects/AnimeShoppe';
-import VisitIceland from './components/SingleProjects/VisitIceland';
 import ItalianPie from './components/SingleProjects/ItalianPie';
 import Footer from './components/Footer/Footer';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -43,9 +42,6 @@ function App() {
             </Route>
             <Route path='/animeshoppe'>
               <AnimeShoppe />
-            </Route>
-            <Route path='/visiticeland'>
-              <VisitIceland />
             </Route>
             <Route path='/italianpie'>
               <ItalianPie />

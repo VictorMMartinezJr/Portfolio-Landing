@@ -108,52 +108,6 @@ export const animeShoppeData = {
     }
 }
 
-export const visitIcelandData = {
-    Overview: {
-        title: 'Overview',
-
-        text: 'Visit Iceland is a web app built with ReactJs that allows users who want to visit the country of Iceland to browse information on it. Users can browse activities, sights, and important info regarding the travel to iceland. This application was built using the Framer-Motion & AOS libraries to add animations to routes and sections. The application also has a contact form with a popup window and working form validation.'
-    },
-
-    RoutesAnimation: {
-        title: 'Routes Animation',
-
-        text: 'The framer-motion library was implemented to add route transition animations. A fade out/in animation is triggered when any page is changed.',
-    },
-
-    SightsCarousel: {
-        title: 'Sights Carousel',
-
-        text: 'The sights carousel is implemented using the react alice carousel library. The data is fetched from a different file and maps through the data fetching the id, image, and the name.',
-
-        image: 'assets/assets-visiticeland/visiticeland-sightscarousel.png'
-    },
-
-    ExploreCarousels: {
-        title: 'Explore Carousel',
-
-        textOne: "The explore carousels are implemented using react bootstraps' carousel. The data is passed as a prop and is fetched from a different file which then maps through the data fetching the id and an image. The carousels appear through animations created by the AOS library.",
-
-        image: 'assets/assets-visiticeland/visiticeland-explorecarousel.png'
-    },
-
-    Contact: {
-        title: 'Contact Page',
-
-        textOne: 'The contact page has empty input and email validation. If an input is empty, a error message appears under the empty input. If the email is not valid, an error appears under the email input letting the user know.',
-
-        textTwo: 'The contact page also as a modal pop up that appears when all inputs are filled out correctly.',
-
-        image: 'assets/assets-visiticeland/visiticeland-contact.png'
-    },
-
-    CarouselImages: {
-        imageOne: 'assets/assets-visiticeland/visiticeland-headphoto.png',
-        imageTwo: 'assets/assets-visiticeland/visiticeland-sights-slider.png',
-        imageThree: 'assets/assets-visiticeland/visiticeland-contact-slider.png'
-    }
-}
-
 export const italianPieData = {
     Overview: {
         title: 'Overview',
