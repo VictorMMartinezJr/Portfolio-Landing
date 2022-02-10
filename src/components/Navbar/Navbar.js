@@ -12,16 +12,16 @@ const Navbar = () => {
                 </div>
                 <ul className={navActive ? "nav-links active" : 'nav-links'}>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <a href='#home'>HOME</a>
+                        <a href='./#home'>HOME</a>
                     </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <a href='#aboutme'>ABOUT ME</a>
+                        <a href='./#aboutme'>ABOUT ME</a>
                     </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <a href='#projects'>PROJECTS</a>
+                        <a href='./#projects'>PROJECTS</a>
                     </li>
                     <li className="nav-link" onClick={() => setNavActive(false)}>
-                        <a href='#contact'>CONTACT</a>
+                        <a href='./#contact'>CONTACT</a>
                     </li>
                 </ul>
                 <div className='burger' onClick={() => setNavActive(!navActive)}>
