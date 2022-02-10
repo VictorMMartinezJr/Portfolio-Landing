@@ -2,7 +2,7 @@ export const streamVicData = {
     Overview: {
         title: 'Overview',
 
-        text: 'StreamVic is a web app built with ReactJs that allows users to browse movie/tv show information and save their favorites. This application uses the TMDB API to fetch movie/tv show data and outputs content dynamically to the webpage. Users can use the API to also search for a particular movie/tv show.'
+        text: 'StreamVic is a web app built with ReactJs that allows users to browse movie/tv show information and save their favorites. I used the TMDB API to fetch movie/tvshow data and output content dynamically to the webpage. Users can use the API to also search for a particular movie/tv show.'
     },
 
     Filter: {

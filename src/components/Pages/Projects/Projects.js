@@ -64,14 +64,14 @@ const Projects = () => {
                         </div>
                     </div>
                     {/*Italian Pie pizza restaurant project */}
-                    <div data-aos='fade-left' className='project-container'>
+                    <div data-aos='fade-right' className='project-container'>
                         <div className='project-container-content'>
                             <div className='project-header'>
                                 <p className='project-head'>Italian Pie</p>
                                 <span className='title-technologies'>
-                                    <p className='title-technology'>React</p>
                                     <p className='title-technology'>HTML5</p>
                                     <p className='title-technology'>CSS</p>
+                                    <p className='title-technology'>JavaScript</p>
                                 </span>
                                 <p className='project-description'>A dynamic web application UI for a pizza shop.</p>
                                 <span className='title-links'>
