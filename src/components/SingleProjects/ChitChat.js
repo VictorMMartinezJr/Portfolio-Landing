@@ -72,7 +72,7 @@ const ChitChat = () => {
           <img
             className="feature-img"
             src={chitChatData.NewGC.image}
-            alt="chat-new-gc"
+            alt="chat-edit-gc"
           />
         </div>
         <div className="feature-with-photo">

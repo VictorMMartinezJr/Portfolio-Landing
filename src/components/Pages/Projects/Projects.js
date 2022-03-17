@@ -22,6 +22,48 @@ const Projects = () => {
           stay turned for more
         </h1>
         <div className="projects-info">
+          {/*anime shoppe project */}
+          <div data-aos="fade-left" className="project-container">
+            <div className="project-container-content left-image">
+              <LazyLoadImage
+                src="./assets/assets-animeshoppe/anime-attire-project.png"
+                alt="anime-shoppe"
+              />
+              <div className="project-header">
+                <p className="project-head">Anime Shoppe</p>
+                <span className="title-technologies">
+                  <p className="title-technology">React</p>
+                  <p className="title-technology">HTML5</p>
+                  <p className="title-technology">CSS</p>
+                </span>
+                <p className="project-description">
+                  A dynamic web app built for an anime shop.
+                </p>
+                <span className="title-links">
+                  <a
+                    href="https://anime-attire.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <p className="title-link">Live Site</p>
+                  </a>
+                  <a
+                    href="https://github.com/VictorMtzCode/Anime-Shoppe"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <p className="title-link">GitHub</p>
+                  </a>
+                  <NavLink
+                    to="/animeshoppe"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <p className="title-link">Learn More</p>
+                  </NavLink>
+                </span>
+              </div>
+            </div>
+          </div>
           {/* MERN Chat project */}
           <div data-aos="fade-right" className="project-container">
             <div className="project-container-content">
@@ -65,51 +107,13 @@ const Projects = () => {
               />
             </div>
           </div>
-          {/*anime shoppe project */}
+          {/* streamvic movie project */}
           <div data-aos="fade-left" className="project-container">
             <div className="project-container-content left-image">
               <LazyLoadImage
-                src="./assets/assets-animeshoppe/anime-attire-project.png"
-                alt="anime-shoppe"
+                src="./assets/assets-streamvic/streamvic-project.png"
+                alt="streamvic"
               />
-              <div className="project-header">
-                <p className="project-head">Anime Shoppe</p>
-                <span className="title-technologies">
-                  <p className="title-technology">React</p>
-                  <p className="title-technology">HTML5</p>
-                  <p className="title-technology">CSS</p>
-                </span>
-                <p className="project-description">
-                  A dynamic web app built for an anime shop.
-                </p>
-                <span className="title-links">
-                  <a
-                    href="https://anime-shoppe.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <p className="title-link">Live Site</p>
-                  </a>
-                  <a
-                    href="https://github.com/VictorMtzCode/Anime-Shoppe"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <p className="title-link">GitHub</p>
-                  </a>
-                  <NavLink
-                    to="/animeshoppe"
-                    onClick={() => window.scrollTo(0, 0)}
-                  >
-                    <p className="title-link">Learn More</p>
-                  </NavLink>
-                </span>
-              </div>
-            </div>
-          </div>
-          {/* streamvic movie project */}
-          <div data-aos="fade-right" className="project-container">
-            <div className="project-container-content">
               <div className="project-header">
                 <p className="project-head">StreamVic</p>
                 <span className="title-technologies">
@@ -145,10 +149,6 @@ const Projects = () => {
                   </NavLink>
                 </span>
               </div>
-              <LazyLoadImage
-                src="./assets/assets-streamvic/streamvic-project.png"
-                alt="streamvic"
-              />
             </div>
           </div>
           {/*Italian Pie pizza restaurant project */}

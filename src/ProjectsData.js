@@ -183,7 +183,7 @@ export const chitChatData = {
       "Users can create new group chats by clicking on the new group button, picking a title and searching for users to add.",
 
     textTwo:
-      "The modal comes with error handling as well if the name is too long, the searched user is already in the group, or can't be found in the database. ",
+      "The modal comes with error handling as well if the name is longer than 15 characters, the searched user is already in the group, or can't be found in the database.",
 
     image: "assets/assets-chit-chat/new-gc-modal.png",
   },
