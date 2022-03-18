@@ -158,7 +158,7 @@ export const chitChatData = {
   Authentication: {
     title: "Authentication",
 
-    text: "I use JWT Tokens to provide real authentication to users logging in and signing up. The JWT Token allows the users to move to the chatpage and see relavent data.",
+    text: "I use JWT to provide real authentication to users logging in and signing up. The token allows the users to move to the chatpage and see relavent data.",
   },
   FormErrors: {
     title: "Form Error Handling",
