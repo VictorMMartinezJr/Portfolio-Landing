@@ -21,7 +21,7 @@ const StreamVic = () => {
       <div className="project-headers">
         <h1 className="single-project-title">StreamVic</h1>
         <MainButton
-          link="https://anime-shoppe.netlify.app/"
+          link="https://streamvic.netlify.app/"
           text="LIVE SITE"
           type="main-btn secondary-btn"
         />

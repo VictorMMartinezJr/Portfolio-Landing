@@ -21,7 +21,7 @@ const ChitChat = () => {
       <div className="project-headers">
         <h1 className="single-project-title">Chit Chat</h1>
         <MainButton
-          link="https://anime-shoppe.netlify.app/"
+          link="https://chit-chat-victormtzcodes.herokuapp.com/"
           text="LIVE SITE"
           type="main-btn secondary-btn"
         />
