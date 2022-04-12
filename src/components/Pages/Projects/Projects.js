@@ -160,6 +160,7 @@ const Projects = () => {
                   <p className="title-technology">HTML5</p>
                   <p className="title-technology">CSS</p>
                   <p className="title-technology">JavaScript</p>
+                  <p className="title-technology">GSAP</p>
                 </span>
                 <p className="project-description">
                   A dynamic web application UI for a pizza shop.

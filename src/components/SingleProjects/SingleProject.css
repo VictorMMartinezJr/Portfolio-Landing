@@ -179,3 +179,8 @@
     align-self: flex-start;
   }
 }
+@media screen and (max-width: 400px) {
+  .single-project-title {
+    font-size: 2rem;
+  }
+}

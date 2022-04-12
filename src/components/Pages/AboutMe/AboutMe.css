@@ -119,6 +119,9 @@
   }
 }
 @media screen and (max-width: 300px) {
+  .aboutme-title {
+    font-size: 2rem;
+  }
   .aboutme-info {
     padding: 0 1rem;
   }

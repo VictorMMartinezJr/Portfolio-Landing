@@ -152,8 +152,7 @@
     width: 95%;
   }
   .project-container {
-    height: auto;
-    padding: 1rem 0;
+    height: 650px;
   }
   .project-container-content {
     flex-direction: column;
@@ -177,6 +176,10 @@
   .project-description {
     font-size: 1rem;
   }
+  .project-container {
+    height: 470px;
+    width: 100%;
+  }
   .project-container img {
     height: 230px;
   }
@@ -198,6 +201,7 @@
   }
   .title-technology {
     margin: 0.2rem;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -222,6 +226,12 @@
   }
 }
 @media screen and (max-width: 300px) {
+  .project-title {
+    font-size: 2rem;
+  }
+  .project-container {
+    height: 520px;
+  }
   .project-container img {
     height: 130px;
   }
