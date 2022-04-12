@@ -65,7 +65,7 @@ const Skills = () => {
               <LazyLoadImage
                 className="skills-logo"
                 src="./assets/images/tailwindcss.svg"
-                alt="figma-logo"
+                alt="tailwindcss-logo"
               />
               <p className="skills-logo-name">Tailwind CSS</p>
             </div>
