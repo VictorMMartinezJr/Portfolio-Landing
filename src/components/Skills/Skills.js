@@ -67,7 +67,7 @@ const Skills = () => {
                 src="./assets/images/tailwindcss.svg"
                 alt="tailwindcss-logo"
               />
-              <p className="skills-logo-name">Tailwind CSS</p>
+              <p className="skills-logo-name">Tailwind</p>
             </div>
           </div>
         </div>

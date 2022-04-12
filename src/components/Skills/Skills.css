@@ -21,10 +21,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  outline: 2px solid red;
 }
 .skills-top-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   margin-bottom: 2rem;
