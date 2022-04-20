@@ -28,7 +28,7 @@ const StreamVic = () => {
         <FaArrowAltCircleDown className="arrow-down" onClick={goToFeatures} />
       </div>
       <div className="single-project-overview">
-        <h1>{streamVicData.Overview.title}</h1>
+        <h2>{streamVicData.Overview.title}</h2>
         <p className="single-project-p">{streamVicData.Overview.text}</p>
         <span className="title-technologies single-project-technologies">
           <p className="title-technology">React</p>
@@ -38,14 +38,14 @@ const StreamVic = () => {
         </span>
       </div>
       <div ref={featuresSection} className="single-project-features">
-        <h1 className="features-title">Features</h1>
+        <h2 className="features-title">Features</h2>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{streamVicData.Filter.title}</h1>
+          <h3 className="feature-h3">{streamVicData.Filter.title}</h3>
           <p className="single-project-p">{streamVicData.Filter.text}</p>
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{streamVicData.Pagination.title}</h1>
+            <h3 className="feature-h3">{streamVicData.Pagination.title}</h3>
             <p className="single-project-p">
               {streamVicData.Pagination.textOne}
             </p>
@@ -60,12 +60,12 @@ const StreamVic = () => {
           />
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{streamVicData.Favorites.title}</h1>
+          <h3 className="feature-h3">{streamVicData.Favorites.title}</h3>
           <p className="single-project-p">{streamVicData.Favorites.text}</p>
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{streamVicData.Search.title}</h1>
+            <h3 className="feature-h3">{streamVicData.Search.title}</h3>
             <p className="single-project-p">{streamVicData.Search.textOne}</p>
             <p className="single-project-p">{streamVicData.Search.textTwo}</p>
           </div>
@@ -77,7 +77,7 @@ const StreamVic = () => {
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{streamVicData.Details.title}</h1>
+            <h3 className="feature-h3">{streamVicData.Details.title}</h3>
             <p className="single-project-p">{streamVicData.Details.textOne}</p>
             <p className="single-project-p">{streamVicData.Details.textTwo}</p>
           </div>
@@ -88,7 +88,7 @@ const StreamVic = () => {
           />
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">Fully Responsive</h1>
+          <h3 className="feature-h3">Fully Responsive</h3>
           <p className="single-project-p">
             StreamVic is fully responsive to ensure the layout of the movie/show
             cards and the information on different pages are in the best
@@ -97,7 +97,7 @@ const StreamVic = () => {
           </p>
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">SEO</h1>
+          <h3 className="feature-h3">SEO</h3>
           <p className="single-project-p">
             React Helmet is implemented to dynamically manage the document's
             head section. Each page's title, description, and meta tags are all

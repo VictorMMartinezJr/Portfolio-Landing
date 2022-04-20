@@ -25,7 +25,7 @@
   font-weight: 900;
   letter-spacing: 3px;
 }
-.projects-h1 {
+.projects-subtitle {
   width: 50%;
   text-align: center;
   font-weight: 400;
@@ -137,7 +137,7 @@
   .project-title {
     font-size: 3rem;
   }
-  .projects-h1 {
+  .projects-subtitle {
     font-size: 1.2rem;
   }
 }
@@ -148,7 +148,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .projects-h1 {
+  .projects-subtitle {
     width: 95%;
   }
   .project-container {
@@ -172,7 +172,7 @@
   .project-title {
     font-size: 2.5rem;
   }
-  .projects-h1,
+  .projects-subtitle,
   .project-description {
     font-size: 1rem;
   }

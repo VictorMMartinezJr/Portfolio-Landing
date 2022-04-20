@@ -55,7 +55,7 @@ export const streamVicData = {
 
   CarouselImages: {
     imageOne: "assets/assets-streamvic/search-page.png",
-    imageTwo: "assets/assets-streamvic/streamvic-headphoto.png",
+    imageTwo: "assets/assets-streamvic/streamvic-project.png",
     imageThree: "assets/assets-streamvic/details-page.png",
   },
 };

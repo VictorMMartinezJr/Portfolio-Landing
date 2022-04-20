@@ -28,7 +28,7 @@ const ChitChat = () => {
         <FaArrowAltCircleDown className="arrow-down" onClick={goToFeatures} />
       </div>
       <div className="single-project-overview">
-        <h1>{chitChatData.Overview.title}</h1>
+        <h2>{chitChatData.Overview.title}</h2>
         <p className="single-project-p">{chitChatData.Overview.text}</p>
         <span className="title-technologies single-project-technologies">
           <p className="title-technology">MongoDB</p>
@@ -38,14 +38,14 @@ const ChitChat = () => {
         </span>
       </div>
       <div ref={featuresSection} className="single-project-features">
-        <h1 className="features-title">Features</h1>
+        <h2 className="features-title">Features</h2>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{chitChatData.Authentication.title}</h1>
+          <h3 className="feature-h3">{chitChatData.Authentication.title}</h3>
           <p className="single-project-p">{chitChatData.Authentication.text}</p>
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{chitChatData.FormErrors.title}</h1>
+            <h3 className="feature-h3">{chitChatData.FormErrors.title}</h3>
             <p className="single-project-p">
               {chitChatData.FormErrors.textOne}
             </p>
@@ -60,12 +60,12 @@ const ChitChat = () => {
           />
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{chitChatData.Search.title}</h1>
+          <h3 className="feature-h3">{chitChatData.Search.title}</h3>
           <p className="single-project-p">{chitChatData.Search.text}</p>
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{chitChatData.NewGC.title}</h1>
+            <h3 className="feature-h3">{chitChatData.NewGC.title}</h3>
             <p className="single-project-p">{chitChatData.NewGC.textOne}</p>
             <p className="single-project-p">{chitChatData.NewGC.textTwo}</p>
           </div>
@@ -77,7 +77,7 @@ const ChitChat = () => {
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{chitChatData.EditGC.title}</h1>
+            <h3 className="feature-h3">{chitChatData.EditGC.title}</h3>
             <p className="single-project-p">{chitChatData.EditGC.textOne}</p>
             <p className="single-project-p">{chitChatData.EditGC.textTwo}</p>
           </div>
@@ -88,11 +88,11 @@ const ChitChat = () => {
           />
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{chitChatData.NodeMongo.title}</h1>
+          <h3 className="feature-h3">{chitChatData.NodeMongo.title}</h3>
           <p className="single-project-p">{chitChatData.NodeMongo.text}</p>
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">Fully Responsive</h1>
+          <h3 className="feature-h3">Fully Responsive</h3>
           <p className="single-project-p">
             Chit Chat is fully responsive to ensure the layout of the movie/show
             cards and the information on different pages are in the best

@@ -28,7 +28,7 @@ const AnimeShoppe = () => {
         <FaArrowAltCircleDown className="arrow-down" onClick={goToFeatures} />
       </div>
       <div className="single-project-overview">
-        <h1>{animeShoppeData.Overview.title}</h1>
+        <h2>{animeShoppeData.Overview.title}</h2>
         <p className="single-project-p">{animeShoppeData.Overview.text}</p>
         <span className="title-technologies single-project-technologies">
           <p className="title-technology">React</p>
@@ -37,15 +37,15 @@ const AnimeShoppe = () => {
         </span>
       </div>
       <div ref={featuresSection} className="single-project-features">
-        <h1 className="features-title">Features</h1>
+        <h2 className="features-title">Features</h2>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{animeShoppeData.Filter.title}</h1>
+          <h3 className="feature-h3">{animeShoppeData.Filter.title}</h3>
           <p className="single-project-p">{animeShoppeData.Filter.text}</p>
         </div>
 
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{animeShoppeData.LoadMore.title}</h1>
+            <h3 className="feature-h3">{animeShoppeData.LoadMore.title}</h3>
             <p className="single-project-p">
               {animeShoppeData.LoadMore.textOne}
             </p>
@@ -57,12 +57,12 @@ const AnimeShoppe = () => {
           />
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">{animeShoppeData.Search.title}</h1>
+          <h3 className="feature-h3">{animeShoppeData.Search.title}</h3>
           <p className="single-project-p">{animeShoppeData.Search.text}</p>
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{animeShoppeData.Products.title}</h1>
+            <h3 className="feature-h3">{animeShoppeData.Products.title}</h3>
             <p className="single-project-p">
               {animeShoppeData.Products.textOne}
             </p>
@@ -78,7 +78,7 @@ const AnimeShoppe = () => {
         </div>
         <div className="feature-with-photo">
           <div className="feature-with-photo-info">
-            <h1 className="feature-h1">{animeShoppeData.Cart.title}</h1>
+            <h3 className="feature-h3">{animeShoppeData.Cart.title}</h3>
             <p className="single-project-p">{animeShoppeData.Cart.textOne}</p>
             <p className="single-project-p">{animeShoppeData.Cart.textTwo}</p>
           </div>
@@ -89,7 +89,7 @@ const AnimeShoppe = () => {
           />
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">Fully Responsive</h1>
+          <h3 className="feature-h3">Fully Responsive</h3>
           <p className="single-project-p">
             Anime Shoppe is fully responsive to ensure the layout of the product
             cards on the screen are in the best position across all device
@@ -98,7 +98,7 @@ const AnimeShoppe = () => {
           </p>
         </div>
         <div className="feature-no-photo">
-          <h1 className="feature-h1">SEO</h1>
+          <h3 className="feature-h3">SEO</h3>
           <p className="single-project-p">
             React Helmet is implemented to dynamically manage the document's
             head section. Each page's title, description, and meta tags are all

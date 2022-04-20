@@ -8,7 +8,7 @@ const Skills = () => {
     <section className="skills" id="skills">
       <Stars />
       <div data-aos="zoom-in" className="skills-content">
-        <h1 className="skills-title">My Skills</h1>
+        <h2 className="skills-title">My Skills</h2>
         <div className="skills-images-container">
           <div className="skills-top-images">
             <div className="skills-logo-container">

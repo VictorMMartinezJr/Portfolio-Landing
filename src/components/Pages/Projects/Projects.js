@@ -14,13 +14,13 @@ const Projects = () => {
       </Helmet>
       <Stars />
       <div className="projects-content">
-        <h1 data-aos="fade-up" className="project-title">
+        <h2 data-aos="fade-up" className="project-title">
           PROJECTS
-        </h1>
-        <h1 className="projects-h1">
+        </h2>
+        <p className="projects-subtitle">
           Some of my recent projects, I'm always working on something new so
           stay turned for more
-        </h1>
+        </p>
         <div className="projects-info">
           {/*anime shoppe project */}
           <div data-aos="fade-left" className="project-container">
@@ -30,7 +30,7 @@ const Projects = () => {
                 alt="anime-shoppe"
               />
               <div className="project-header">
-                <p className="project-head">Anime Shoppe</p>
+                <h4 className="project-head">Anime Shoppe</h4>
                 <span className="title-technologies">
                   <p className="title-technology">React</p>
                   <p className="title-technology">HTML5</p>
@@ -68,7 +68,7 @@ const Projects = () => {
           <div data-aos="fade-right" className="project-container">
             <div className="project-container-content">
               <div className="project-header">
-                <p className="project-head">Chit Chat</p>
+                <h4 className="project-head">Chit Chat</h4>
                 <span className="title-technologies">
                   <p className="title-technology">Mongo DB</p>
                   <p className="title-technology">Express</p>
@@ -115,7 +115,7 @@ const Projects = () => {
                 alt="streamvic"
               />
               <div className="project-header">
-                <p className="project-head">StreamVic</p>
+                <h4 className="project-head">StreamVic</h4>
                 <span className="title-technologies">
                   <p className="title-technology">React</p>
                   <p className="title-technology">HTML5</p>
@@ -155,7 +155,7 @@ const Projects = () => {
           <div data-aos="fade-right" className="project-container">
             <div className="project-container-content">
               <div className="project-header">
-                <p className="project-head">Italian Pie</p>
+                <h4 className="project-head">Italian Pie</h4>
                 <span className="title-technologies">
                   <p className="title-technology">HTML5</p>
                   <p className="title-technology">CSS</p>

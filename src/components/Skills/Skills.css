@@ -21,7 +21,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  outline: 2px solid red;
 }
 .skills-top-images {
   display: flex;

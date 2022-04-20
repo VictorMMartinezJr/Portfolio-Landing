@@ -84,7 +84,7 @@
   margin: 1rem 0;
 }
 
-.feature-h1 {
+.feature-h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
   border-bottom: 3px solid #742fc2;
@@ -133,7 +133,7 @@
   .features-title {
     font-size: 2rem;
   }
-  .feature-h1 {
+  .feature-h3 {
     font-size: 1.5rem;
   }
   .feature-img {
@@ -149,7 +149,7 @@
   .features-title {
     font-size: 1.7rem;
   }
-  .feature-h1 {
+  .feature-h3 {
     font-size: 1.2rem;
   }
   .single-project-p {
