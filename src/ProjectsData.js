@@ -57,6 +57,12 @@ export const streamVicData = {
     imageOne: "assets/assets-streamvic/search-page.png",
     imageTwo: "assets/assets-streamvic/streamvic-project.png",
     imageThree: "assets/assets-streamvic/details-page.png",
+    imageOneAlt:
+      "Computer and mobile phone next to each other both on the Streamvic application on the search page searching Avengers",
+    imageTwoAlt:
+      "Computer and mobile phone next to each other both on the Streamvic application home page",
+    imageThreeAlt:
+      "Computer and mobile phone next to each other both on the Streamvic application on a PeaceMaker details page",
   },
 };
 
@@ -64,7 +70,7 @@ export const animeShoppeData = {
   Overview: {
     title: "Overview",
 
-    text: "Anime Shoppe is a web app built with ReactJs for an anime store. It allows users to view, search, sort, and add/remove items from their cart. I used  custom data for the products of the application and used the Context API + useReducer hook to create a global state for the cart. This allows users to add/remove items from the cart and keep items in the cart when they visit the checkout page. The checkout page has a working total amount that updates when an item is removed or added to the cart.",
+    text: "Anime Attire is a web app built with ReactJs for an anime store. It allows users to view, search, sort, and add/remove items from their cart. I used  custom data for the products of the application and used the Context API + useReducer hook to create a global state for the cart. This allows users to add/remove items from the cart and keep items in the cart when they visit the checkout page. The checkout page has a working total amount that updates when an item is removed or added to the cart.",
   },
 
   Filter: {
@@ -79,7 +85,7 @@ export const animeShoppeData = {
     textOne:
       "The load more component uses props to load more data on click. With every click 8 more products get rendered and the button disappears if the there isn't enough products left to render",
 
-    image: "assets/assets-animeshoppe/loadmore.png",
+    image: "assets/assets-animeattire/loadmore.png",
   },
   Search: {
     title: "Search",
@@ -96,7 +102,7 @@ export const animeShoppeData = {
     textTwo:
       "The remove from cart feature was implemented using the global state and a dispatch as well. The item that you choose to remove from the cart is passed as a payload to the dispatch which filters the cart array and checks for any id that matches the product id, then removes it. If the product exists in the global cart array, a 'Remove from Cart' button is rendered",
 
-    image: "assets/assets-animeshoppe/products-in-cart.png",
+    image: "assets/assets-animeattire/products-in-cart.png",
   },
 
   Cart: {
@@ -108,13 +114,19 @@ export const animeShoppeData = {
     textTwo:
       "Each item is given a remove button that removes the item from the cart and the cart pagee. The total price of all the items will then update in real time to the correct amount of all the items still in the cart.",
 
-    image: "assets/assets-animeshoppe/cart-page.png",
+    image: "assets/assets-animeattire/cart-page.png",
   },
 
   CarouselImages: {
-    imageOne: "assets/assets-animeshoppe/loadmore.png",
-    imageTwo: "assets/assets-animeshoppe/products-in-cart.png",
-    imageThree: "assets/assets-animeshoppe/cart-page.png",
+    imageOne: "assets/assets-animeattire/loadmore.png",
+    imageTwo: "assets/assets-animeattire/products-in-cart.png",
+    imageThree: "assets/assets-animeattire/cart-page.png",
+    imageOneAlt:
+      "Computer and mobile phone next to each other both on the Animme Attire website showing a load more button",
+    imageTwoAlt:
+      "Computer and mobile phone next to each other both on the Animme Attire website showing items in their cart",
+    imageThreeAlt:
+      "Computer and mobile phone next to each other both on the Animme Attire website cart page",
   },
 };
 
@@ -122,30 +134,34 @@ export const italianPieData = {
   Overview: {
     title: "Overview",
 
-    text: "Italian Pie is a multi page web app built with HTML5, CSS, & vanilla JavaScript. It uses GSAP and Barba JS to add animations on sections as well as animations on page changes.",
+    text: "Italian Pie is a landing page built with HTML, CSS, JavaScript, GSAP, Barba JS.",
   },
-  Svg: {
-    title: "Svg Animations",
+  LoadAnimation: {
+    title: "Load Animations",
 
-    text: "A small pizza svg animation occurs in the navbar when the webpage loads. The pizza rotates 360deg and a slice flys away.",
+    text: "GSAP is used to fade in elements when the page loads initially",
   },
   PageTransitions: {
     title: "Page Transition Animations",
 
-    text: "GSAP & BARBA JS are used together to create an animation for the page leaving and the page entering. The text and pizza image each have different animations when leaving and entering the webpage.",
+    text: "GSAP & Barba JS are used together to create page change animations such as images and text sliding in/out",
   },
   ScrollAnimations: {
     title: "Scroll Animations",
 
-    text: "Using GSAP ScrollTrigger, every section has a different animation as you're scrolling down the page.",
-
-    image: "assets/assets-italianpie/menu-animation.png",
+    text: "Intersection Observer is used to get the moment an element is on the screen then GSAP is used to fade in the element",
   },
 
   CarouselImages: {
-    imageOne: "assets/assets-italianpie/pizza-ui.png",
-    imageTwo: "assets/assets-italianpie/gallery-section.png",
-    imageThree: "assets/assets-italianpie/contact-section.png",
+    imageOne: "assets/assets-italianpie/main.png",
+    imageTwo: "assets/assets-italianpie/menu-section.png",
+    imageThree: "assets/assets-italianpie/reviews-section.png",
+    imageOneAlt:
+      "Computer and mobile phone next to each other both on the Italian Pie website",
+    imageTwoAlt:
+      "Computer and mobile phone next to each other both on the Italian Pie website in the menu section",
+    imageThreeAlt:
+      "Computer and mobile phone next to each other both on the Italian Pie website in the reviews section",
   },
 };
 
@@ -204,8 +220,14 @@ export const chitChatData = {
     text: "I used NodeJS to create the server, all the routes, modals, controllers, & middleware. I approached this using the MVC pattern. MongoDB is used as the database that stores all the users, chats, & messages created.",
   },
   CarouselImages: {
-    imageOne: "assets/assets-chit-chat/new-gc-modal.png",
-    imageTwo: "assets/assets-chit-chat/edit-gc-modal.png",
-    imageThree: "assets/assets-chit-chat/form.png",
+    imageOne: "assets/assets-chit-chat/form.png",
+    imageTwo: "assets/assets-chit-chat/new-gc-modal.png",
+    imageThree: "assets/assets-chit-chat/edit-gc-modal.png",
+    imageOneAlt:
+      "Computer and mobile phone next to each other both on the Chit Chat application showing the login form",
+    imageTwoAlt:
+      "Computer and mobile phone next to each other both on the Chit Chat application with the create a new group modal open",
+    imageThreeAlt:
+      "Computer and mobile phone next to each other both on the Chit Chat application with the edit a group modal open",
   },
 };

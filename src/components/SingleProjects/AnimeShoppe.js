@@ -15,11 +15,11 @@ const AnimeShoppe = () => {
   return (
     <section className="single-project">
       <Helmet>
-        <title>Anime Shoppe Project</title>
+        <title>Anime Attire Project</title>
         <meta name="description" content="Anime Shoppe Project" />
       </Helmet>
       <div className="project-headers">
-        <h1 className="single-project-title">Anime Shoppe</h1>
+        <h1 className="single-project-title">Anime Attire</h1>
         <MainButton
           link="https://anime-attire.netlify.app/"
           text="LIVE SITE"
@@ -53,7 +53,7 @@ const AnimeShoppe = () => {
           <img
             className="feature-img"
             src={animeShoppeData.LoadMore.image}
-            alt="animeshoppe-loadmore"
+            alt={animeShoppeData.CarouselImages.imageOneAlt}
           />
         </div>
         <div className="feature-no-photo">
@@ -73,7 +73,7 @@ const AnimeShoppe = () => {
           <img
             className="feature-img"
             src={animeShoppeData.Products.image}
-            alt="animeshoppe-products"
+            alt={animeShoppeData.CarouselImages.imageTwoAlt}
           />
         </div>
         <div className="feature-with-photo">
@@ -85,13 +85,13 @@ const AnimeShoppe = () => {
           <img
             className="feature-img"
             src={animeShoppeData.Cart.image}
-            alt="animeshoppe-cart"
+            alt={animeShoppeData.CarouselImages.imageTwoAlt}
           />
         </div>
         <div className="feature-no-photo">
           <h3 className="feature-h3">Fully Responsive</h3>
           <p className="single-project-p">
-            Anime Shoppe is fully responsive to ensure the layout of the product
+            Anime Attire is fully responsive to ensure the layout of the product
             cards on the screen are in the best position across all device
             widths. The website is responsive for mobile, tablet and desktop
             devices.
@@ -112,6 +112,9 @@ const AnimeShoppe = () => {
         imageOne={animeShoppeData.CarouselImages.imageOne}
         imageTwo={animeShoppeData.CarouselImages.imageTwo}
         imageThree={animeShoppeData.CarouselImages.imageThree}
+        imageOneAlt={animeShoppeData.CarouselImages.imageOneAlt}
+        imageTwoAlt={animeShoppeData.CarouselImages.imageTwoAlt}
+        imageThreeAlt={animeShoppeData.CarouselImages.imageThreeAlt}
       />
       <div className="contact-div">
         <ContactMe />

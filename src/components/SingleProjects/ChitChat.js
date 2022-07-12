@@ -56,7 +56,7 @@ const ChitChat = () => {
           <img
             className="feature-img"
             src={chitChatData.FormErrors.image}
-            alt="chitchat-form-errors"
+            alt={chitChatData.CarouselImages.imageOneAlt}
           />
         </div>
         <div className="feature-no-photo">
@@ -72,7 +72,7 @@ const ChitChat = () => {
           <img
             className="feature-img"
             src={chitChatData.NewGC.image}
-            alt="chat-edit-gc"
+            alt={chitChatData.CarouselImages.imageTwoAlt}
           />
         </div>
         <div className="feature-with-photo">
@@ -84,7 +84,7 @@ const ChitChat = () => {
           <img
             className="feature-img"
             src={chitChatData.EditGC.image}
-            alt="chat-edit-gc"
+            alt={chitChatData.CarouselImages.imageThreeAlt}
           />
         </div>
         <div className="feature-no-photo">
@@ -106,6 +106,9 @@ const ChitChat = () => {
         imageOne={chitChatData.CarouselImages.imageOne}
         imageTwo={chitChatData.CarouselImages.imageTwo}
         imageThree={chitChatData.CarouselImages.imageThree}
+        imageOneAlt={chitChatData.CarouselImages.imageOneAlt}
+        imageTwoAlt={chitChatData.CarouselImages.imageTwoAlt}
+        imageThreeAlt={chitChatData.CarouselImages.imageThreeAlt}
       />
       <div className="contact-div">
         <ContactMe />

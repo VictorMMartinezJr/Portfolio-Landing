@@ -56,7 +56,7 @@ const StreamVic = () => {
           <img
             className="feature-img"
             src={streamVicData.Pagination.image}
-            alt="streamvic-pagination"
+            alt="Computer and mobile phone next to each other both on the Streamvic application at the bottom of the movie page"
           />
         </div>
         <div className="feature-no-photo">
@@ -72,7 +72,7 @@ const StreamVic = () => {
           <img
             className="feature-img"
             src={streamVicData.Search.image}
-            alt="streamvic-search"
+            alt={streamVicData.CarouselImages.imageOneAlt}
           />
         </div>
         <div className="feature-with-photo">
@@ -84,7 +84,7 @@ const StreamVic = () => {
           <img
             className="feature-img"
             src={streamVicData.Details.image}
-            alt="streamvic-details"
+            alt={streamVicData.CarouselImages.imageThreeAlt}
           />
         </div>
         <div className="feature-no-photo">
@@ -111,6 +111,9 @@ const StreamVic = () => {
         imageOne={streamVicData.CarouselImages.imageOne}
         imageTwo={streamVicData.CarouselImages.imageTwo}
         imageThree={streamVicData.CarouselImages.imageThree}
+        imageOneAlt={streamVicData.CarouselImages.imageOneAlt}
+        imageTwoAlt={streamVicData.CarouselImages.imageTwoAlt}
+        imageThreeAlt={streamVicData.CarouselImages.imageThreeAlt}
       />
       <div className="contact-div">
         <ContactMe />

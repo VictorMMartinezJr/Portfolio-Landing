@@ -41,8 +41,10 @@ const TheCrown = () => {
       <div ref={featuresSection} className="single-project-features">
         <h2 className="features-title">Features</h2>
         <div className="feature-no-photo">
-          <h3 className="feature-h3">{italianPieData.Svg.title}</h3>
-          <p className="single-project-p">{italianPieData.Svg.text}</p>
+          <h3 className="feature-h3">{italianPieData.LoadAnimation.title}</h3>
+          <p className="single-project-p">
+            {italianPieData.LoadAnimation.text}
+          </p>
         </div>
         <div className="feature-no-photo">
           <h3 className="feature-h3">{italianPieData.PageTransitions.title}</h3>
@@ -50,37 +52,26 @@ const TheCrown = () => {
             {italianPieData.PageTransitions.text}
           </p>
         </div>
-        <div className="feature-with-photo">
-          <div className="feature-with-photo-info">
-            <h3 className="feature-h3">
-              {italianPieData.ScrollAnimations.title}
-            </h3>
-            <p className="single-project-p">
-              {italianPieData.ScrollAnimations.textOne}
-            </p>
-          </div>
-          <img
-            className="feature-img"
-            src={italianPieData.ScrollAnimations.image}
-            alt="streamvic-pagination"
-          />
+        <div className="feature-no-photo">
+          <h3 className="feature-h3">
+            {italianPieData.ScrollAnimations.title}
+          </h3>
+          <p className="single-project-p">
+            {italianPieData.ScrollAnimations.text}
+          </p>
         </div>
         <div className="feature-no-photo">
           <h3 className="feature-h3">Fully Responsive</h3>
           <p className="single-project-p">
-            The Crown to ensure the layout of the movie cards and the movie
-            detail information is to best fit the page in different devices
-            without being too overcrowded or too much white space. The website
-            is responsive for mobile, tablet and desktop devices.
+            Media queries are used to make this website fully responsive,
+            allowing it to be accessible to everyone on any type of device.
           </p>
         </div>
         <div className="feature-no-photo">
-          <h3 className="feature-h3">SEO</h3>
+          <h3 className="feature-h3">Accessibility</h3>
           <p className="single-project-p">
-            React Helmet is implemented to dynamically manage the document's
-            head section. Each page's title, description, and meta tags are all
-            dynamically changed to best represent the current page. This will
-            help the app be read by search engines and social media crawlers.
+            This website is created with accessibility in mind and complies with
+            the WCAG 2 1 guidlines.
           </p>
         </div>
       </div>
@@ -89,6 +80,9 @@ const TheCrown = () => {
         imageOne={italianPieData.CarouselImages.imageOne}
         imageTwo={italianPieData.CarouselImages.imageTwo}
         imageThree={italianPieData.CarouselImages.imageThree}
+        imageOneAlt={italianPieData.CarouselImages.imageOneAlt}
+        imageTwoAlt={italianPieData.CarouselImages.imageTwoAlt}
+        imageThreeAlt={italianPieData.CarouselImages.imageThreeAlt}
       />
       <div className="contact-div">
         <ContactMe />

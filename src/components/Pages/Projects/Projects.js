@@ -26,11 +26,11 @@ const Projects = () => {
           <div data-aos="fade-left" className="project-container">
             <div className="project-container-content left-image">
               <LazyLoadImage
-                src="./assets/assets-animeshoppe/anime-attire-project.png"
-                alt="anime-shoppe"
+                src="./assets/assets-animeattire/anime-attire-project.png"
+                alt="Computer and mobile phone next to each other both on the Animme Attire website"
               />
               <div className="project-header">
-                <h4 className="project-head">Anime Shoppe</h4>
+                <h4 className="project-head">Anime Attire</h4>
                 <span className="title-technologies">
                   <p className="title-technology">React</p>
                   <p className="title-technology">HTML5</p>
@@ -103,7 +103,7 @@ const Projects = () => {
               </div>
               <LazyLoadImage
                 src="./assets/assets-chit-chat/chat-project.png"
-                alt="streamvic"
+                alt="computer and mobile phone next to each other on the Chit Chat web application with a chat open"
               />
             </div>
           </div>
@@ -112,7 +112,7 @@ const Projects = () => {
             <div className="project-container-content left-image">
               <LazyLoadImage
                 src="./assets/assets-streamvic/streamvic-project.png"
-                alt="streamvic"
+                alt="Computer and mobile phone next to each other both on the Streamvic application home page"
               />
               <div className="project-header">
                 <h4 className="project-head">StreamVic</h4>
@@ -163,7 +163,7 @@ const Projects = () => {
                   <p className="title-technology">GSAP</p>
                 </span>
                 <p className="project-description">
-                  A dynamic web application UI for a pizza shop.
+                  A dynamic landing page for a local pizzeria.
                 </p>
                 <span className="title-links">
                   <a
@@ -174,7 +174,7 @@ const Projects = () => {
                     <p className="title-link">Live Site</p>
                   </a>
                   <a
-                    href="https://github.com/VictorMtzCode/PizzaRestaurant"
+                    href="https://github.com/VictorMtzCode/Pizzeria-Landing"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -189,8 +189,8 @@ const Projects = () => {
                 </span>
               </div>
               <LazyLoadImage
-                src="./assets/assets-italianpie/pizza-ui.png"
-                alt="italian-pie"
+                src="./assets/assets-italianpie/main.png"
+                alt="Computer and mobile phone next to each other both on the Italian Pie website"
               />
             </div>
           </div>
